@@ -193,9 +193,10 @@ The generated visualization for the maps can be accessed below:
 - [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode08_map.png)
 - [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode09_map.png)
 
-  **Note** The accompanying Data files have been uploaded in the shared drive  [processed reads](https://hjf.box.com/s/8lspjn8rwbkklrq8xrx9ki4ob44hnkix)
+
+The accompanying Data files have been uploaded in the shared drive  [processed reads](https://hjf.box.com/s/8lspjn8rwbkklrq8xrx9ki4ob44hnkix)
   
-### whats' contained in the directory above:
+**whats' contained in the directory above:**
 
 - **Reads** – Demultiplexed and trimmed FASTQ files used for quality control and downstream analyses.
 
