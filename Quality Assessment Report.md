@@ -194,6 +194,16 @@ The generated visualization for the maps can be accessed below:
 - [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode09_map.png)
 
   **Note** The accompanying Data files have been uploaded in the shared drive  [processed reads](https://hjf.box.com/s/8lspjn8rwbkklrq8xrx9ki4ob44hnkix)
+  
+### whats' contained in the directory above:
+
+- **Reads** – Demultiplexed and trimmed FASTQ files used for quality control and downstream analyses.
+
+- **Quality_Reports** – Per-barcode Sequali quality assessment reports (before and after filtering).
+
+- **mapped_bam_files** – Sorted and indexed BAM files generated after alignment to the HXB2 reference genome.
+
+- **mapped_reads_igv_visualizations** – IGV-generated visualization files illustrating read mapping coverage and alignment patterns.
 
 <h2 align="center">End of Report</h2>
 
