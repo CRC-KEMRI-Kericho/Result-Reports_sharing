@@ -67,9 +67,17 @@ sequali -t 12 --outdir "${barcode_folder}"/Quality_Reports  ${barcode_folder}/*.
 # -t 12 - Number of threads/cpus, important in parallelization of read processing.
 ```
 
-In summary, read lengths ranged from 1 bp to over 215,000 bp. Quality scores varied across barcodes, spanning Phred scores of 3 to 45. Detailed per-barcode quality assessment reports are available via the links provided below.
+In summary, read lengths ranged from 1 bp to over 215,000 bp. Quality scores varied across barcodes, spanning Phred scores of 3 to 45. Detailed, per-barcode quality assessment reports are available via the links provided below, before any further filtering.
 
-
+- [Barcode01](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode01.fastq.html)
+- [Barcode02](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode02.fastq.html)
+- [Barcode03](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode03.fastq.html)
+- [Barcode04](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode04.fastq.html)
+- [Barcode05](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode05.fastq.html)
+- [Barcode06](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode06.fastq.html)
+- [Barcode07](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode07.fastq.html)
+- [Barcode08](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode08.fastq.html)
+- [Barcode09](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode09.fastq.html)
 
 
 
