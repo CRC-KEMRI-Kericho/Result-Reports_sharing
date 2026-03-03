@@ -81,14 +81,9 @@ In summary, read lengths ranged from 1 bp to over 215,000 bp. Quality scores var
 
 
 
-### Read Length Distribution
+#### Subsequent Filtering Based on Quality Reports
 
-Reads ranged from:
-
-- < 20 bp  
-- > 215,000 bp  
-
-Given the expected final amplicon size of **5300 bp**, reads shorter than **4000 bp** and longer than **5600 bp** were excluded from downstream analysis.
+Given the expected final amplicon size of **5300 bp** (Based on the library preparation information ),  reads shorter than **4000 bp** and longer than **5600 bp** were excluded from downstream analysis.
 
 ### Quality Filtering
 
