@@ -83,69 +83,13 @@ In summary, read lengths ranged from 1 bp to over 215,000 bp. Quality scores var
 
 #### Subsequent Filtering Based on Quality Reports
 
-Given the expected final amplicon size of **5300 bp** (Based on the library preparation information ),  reads shorter than **4000 bp** and longer than **5600 bp** were excluded from downstream analysis.
+## Length and Quality Filtering Criteria
 
-### Quality Filtering
+Tool: Filtlong version o.3.1 [Github](https://github.com/rrwick/Filtlong)
 
-- Majority of reads had Phred scores > 20  
-- Low-quality reads (Phred < 7) were removed using **Filtlong**  
-  https://github.com/rrwick/Filtlong  
+Given the expected final amplicon size of **5300 bp** (based on the library preparation information summarised below), reads shorter than **4000 bp** and longer than **5600 bp** were excluded from downstream analysis.
 
-Additional QC metrics evaluated:
-
-- N content per sequence  
-- GC percentage  
-- Other standard QC parameters  
-
----
-
-## Detailed Quality Reports
-
-### Barcode01
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode01.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode01_filtered.fastq.html  
-
-### Barcode02
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode02.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode02_filtered.fastq.html  
-
-### Barcode03
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode03.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode03_filtered.fastq.html  
-
-### Barcode04
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode04.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode04_filtered.fastq.html  
-
-### Barcode05
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode05.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode05_filtered.fastq.html  
-
-### Barcode06
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode06.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode06_filtered.fastq.html  
-
-### Barcode07
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode07.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode07_filtered.fastq.html  
-
-### Barcode08
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode08.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode08_filtered.fastq.html  
-
-### Barcode09
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode09.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode09_filtered.fastq.html  
-
-### Unclassified Reads
-- Before filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/unclassified.fastq.html  
-- After filtering: https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/unclassified_filtered.fastq.html  
-
----
-
-## 3. Downstream Analysis
-
-### Sample Metadata
+### DNA Nano2 Library Information 042325 MEL EC
 
 | Sample | Region | Final Product Size | Forward Primer | cDNA Primer | Barcode |
 |--------|--------|-------------------|----------------|-------------|----------|
@@ -159,25 +103,73 @@ Additional QC metrics evaluated:
 | 40100+40436_LH | LH | 5300 | gag763 | PB_A(X)_JL68Rv2 | NB08 |
 | 40100+40436_RH | RH | 5300 | PolK3 | PB_A(X)_oligodT_20 | NB09 |
 
+Additionally, Phred score–based quality filtering was applied using barcode-specific cut-offs as shown below:
+
+| Barcode    | Phred Score Quality Cut-off |
+|------------|-----------------------------|
+| Barcode01  | 7 |
+| Barcode02  | 3 |
+| Barcode03  | 7 |
+| Barcode04  | 7 |
+| Barcode05  | 6 |
+| Barcode06  | 7 |
+| Barcode07  | 7 |
+| Barcode08  | 7 |
+| Barcode09  | 7 |
+
+The command was run as follows (Example for barcode 01):
+
+**Note:** the quality is modified depending on the barcode, while min_length and max_length are constant for all barcodes (Refer to library preparation information in the table above).
+
+```
+filtlong  barcode_01/*.fastq \
+          --min_length 4000 \
+          --max_length 5600 \
+          --min_mean_q 7 > "${barcode_folder}/${barcode_name}_filtered.fastq"
+```
+
+### Quality Re-assessment
+
+Tool: Sequali version 1.0.2 [GitHub](https://github.com/rhpvorderman/sequali)
+
+This step Re-evaluated: 
+- read length distributions
+- Base quality scores
+- overall sequencing performance and other important indicators.
+
+Parameters and the command used:
+
+```
+sequali -t 12 --outdir "${barcode_folder}"/Quality_Reports  ${barcode_folder}/*.fastq
+
+# -t 12 - Number of threads/cpus, important in parallelization of read processing.
+```
+
+In summary, read lengths ranged from **4000** bp to **5600** bp. Quality scores varied across barcodes.
+
+Detailed, per-barcode quality assessment reports are available via the links provided below, after further filtering.
+
+- [Barcode01](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode01_filtered.fastq.html)
+- [Barcode02](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode02_filtered.fastq.html)
+- [Barcode03](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode03_filtered.fastq.html)
+- [Barcode04](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode04_filtered.fastq.html)
+- [Barcode05](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode05_filtered.fastq.html)
+- [Barcode06](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode06_filtered.fastq.html)
+- [Barcode07](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode07_filtered.fastq.html)
+- [Barcode08](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode08_filtered.fastq.html)
+- [Barcode09](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Quality_Reports/barcode09_filtered.fastq.html)
+
 ---
+## Step 5 Mapping reads to the reference  
 
-### Current Focus: AD_207
+Read alignment was performed using minimap2 with the **map-ont** preset against the HXB2 reference genome. The resulting alignments were sorted and indexed using samtools. An example command for Barcode01 is shown below.
 
-The sequenced regions correspond to:
+Tool used : Minimap2-2.30 (r1287) [GitHub](https://github.com/lh3/minimap2)
 
-- gag (LH region)  
-- pol (RH region)  
+**Samtools version 1.23** was used to sort and index the BAM file.
 
-Reads from AD_207_LH (Barcode01) and AD_207_RH (Barcode02) were mapped to the HIV-1 HXB2 reference genome using **minimap2**:  
-https://github.com/lh3/minimap2
-
-Genomic positions with read depth ≥ 1000 were selected to highlight strong sequencing support.
-
-The plot shows that the 3′ region of LH reads overlaps with the 5′ region of RH reads, suggesting the possibility of generating a gag–pol consensus sequence.
-
----
-
-## Outstanding Questions
-
-1. Should LH and RH reads be concatenated per sample to generate a full gag–pol consensus, or analyzed separately?  
-2. Would the resulting gag–pol consensus sequence be suitable for intactness analysis?
+```
+minimap2 -ax map-ont HXB2-Reference.fasta ${basedir}/barcode01/barcode01_filtered.fastq | \
+samtools sort -@ $THREADS -o ${basedir}/barcode01/barcode01_filtered.bam \
+samtools index ${basedir}/barcode01/barcode01_filtered.bam
+```
