@@ -179,6 +179,16 @@ Tool: IGV Version 2.19.7 [Website](https://igv.org/doc/desktop/##usage-license-a
 
 The generated visualizations can be accessed below:
 
+- [Barcode01](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode01_map.png)
+- [Barcode02](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode02_map.png)
+- [Barcode03](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode03_map.png)
+- [Barcode04](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode04_map.png)
+- [Barcode05](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode05_map.png)
+- [Barcode06](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode06_map.png)
+- [Barcode07](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode07_map.png)
+- [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode08_map.png)
+- [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode09_map.png)
+
 
 
 
