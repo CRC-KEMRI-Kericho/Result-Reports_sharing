@@ -1,9 +1,9 @@
 # Quality Reports Analysis
 
-## Step 1. Basecalling 
-Tool: **Dorado v1.3.1** [Github](https://github.com/nanoporetech/dorado)
+## Step 1: Basecalling 
+Tool: **Dorado v1.3.1** [GitHub](https://github.com/nanoporetech/dorado)
 
-Parameters and command used.
+Parameters and commands used.
 ```
 dorado basecaller sup -r $DATA_DIR/${pod5_file} \
     --no-trim \
@@ -13,7 +13,7 @@ dorado basecaller sup -r $DATA_DIR/${pod5_file} \
 
 ## Step 2: Demultiplexing
 
-Tool: **Dorado v1.3.1** [Github](https://github.com/nanoporetech/dorado)
+Tool: **Dorado v1.3.1** [GitHub](https://github.com/nanoporetech/dorado)
 
 Parameters and command
 
@@ -27,11 +27,11 @@ dorado demux \
 
 ### Results summary
 
-The basecalled POD5 files contained a total of **238,589 reads**. These reads were demultiplexed into **nine barcodes** using the sequencing kit **SQK-NBD114-24**. Other parameters used are indicated in the commands above.
+The basecalled POD5 files contained a total of **238,589 reads**. These reads were demultiplexed into **nine barcodes** using the sequencing kit **SQK-NBD114-24**. Additional parameters are detailed in the commands above.
 
 ---
 
-## Step 3 Quality control
+## Step 3: Quality control
 
 Involved: 
 - Adapter trimming
@@ -85,7 +85,7 @@ In summary, read lengths ranged from 1 bp to over 215,000 bp. Quality scores var
 
 ## Length and Quality Filtering Criteria
 
-Tool: Filtlong version o.3.1 [Github](https://github.com/rrwick/Filtlong)
+Tool: Filtlong version 0.3.1 [GitHub](https://github.com/rrwick/Filtlong)
 
 Given the expected final amplicon size of **5300 bp** (based on the library preparation information summarised below), reads shorter than **4000 bp** and longer than **5600 bp** were excluded from downstream analysis.
 
@@ -119,7 +119,7 @@ Additionally, Phred score–based quality filtering was applied using barcode-sp
 
 The command was run as follows (Example for barcode 01):
 
-**Note:** the quality is modified depending on the barcode, while min_length and max_length are constant for all barcodes (Refer to library preparation information in the table above).
+**Note:** The phred score quality is modified depending on the barcode, while min_length and max_length are constant for all barcodes (Refer to library preparation information in the table above).
 
 ```
 filtlong  barcode_01/*.fastq \
@@ -128,7 +128,7 @@ filtlong  barcode_01/*.fastq \
           --min_mean_q 7 > "${barcode_folder}/${barcode_name}_filtered.fastq"
 ```
 
-The filtered reads quality is re-accessed below
+The filtered reads quality is re-assessed below
 
 ### Quality Re-assessment
 
@@ -172,7 +172,9 @@ Tool used : Minimap2-2.30 (r1287) [GitHub](https://github.com/lh3/minimap2)
 
 ```
 minimap2 -ax map-ont HXB2-Reference.fasta ${basedir}/barcode01/barcode01_filtered.fastq | \
-samtools sort -@ $THREADS -o ${basedir}/barcode01/barcode01_filtered.bam \
+samtools sort -@ $THREADS -o ${basedir}/barcode01/barcode01_filtered.bam
+
+
 samtools index ${basedir}/barcode01/barcode01_filtered.bam
 ```
 ### Mapping results Visualization
