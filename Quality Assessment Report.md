@@ -1,21 +1,73 @@
 # Quality Reports Analysis
 
-## 1. Basecalling and Demultiplexing
+## Step 1. Basecalling 
+Tool: **Dorado v1.3.1** [Github](https://github.com/nanoporetech/dorado)
 
-The basecalled POD5 files contained a total of **238,589 reads**. These reads were demultiplexed into nine barcodes using the sequencing kit **SQK-NBD114-24**.
+Parameters and command used.
+```
+dorado basecaller sup -r $DATA_DIR/${pod5_file} \
+    --no-trim \
+    --device $DEVICE \
+    > "$CALLS_BAM"
+```
 
-Basecalling and demultiplexing were performed using **Dorado v1.3.1** with the following parameters:
+## Step 2: Demultiplexing
 
-dorado basecaller sup -r $DATA_DIR/${pod5_file} --no-trim --device $DEVICE > "$CALLS_BAM"
+Tool: **Dorado v1.3.1** [Github](https://github.com/nanoporetech/dorado)
+
+Parameters and command
+
+```
+dorado demux \
+    --output-dir "$DEMUX_DIR" \
+    --kit-name "SQK-NBD114-24" \
+    --sample-sheet "${DATA_DIR}/${SAMPLE_SHEET}" 
+    "$CALLS_BAM"
+```
+
+### Results summary
+
+The basecalled POD5 files contained a total of **238,589 reads**. These reads were demultiplexed into **nine barcodes** using the sequencing kit **SQK-NBD114-24**. Other parameters used are indicated in the commands above.
 
 ---
 
-## 2. Quality Control
+## Step 3 Quality control
 
-Adapter, barcode, and primer trimming were carried out using Dorado based on the provided primer and barcode sequences for the kit.
+Involved: 
+- Adapter trimming
+- Barcode removal
+- Primer trimming
 
+Tool: **Dorado v1.3.1** [Github](https://github.com/nanoporetech/dorado)
+
+Parameters and commands used:
+
+```
+dorado trim \
+        --sequencing-kit "SQK-NBD114-24" \
+        --primer-sequences "primer_seq.fasta" \
+        --emit-fastq \
+        "${barcode}"/*.bam \
+        > "${basedir}/${basename}/${basename}_trimmed.fastq"
+```
+
+### Step 4: Read Quality Assessment
+Tool: Sequali version 1.0.2 [GitHub](https://github.com/rhpvorderman/sequali)
+
+This step evaluated: 
+- read length distributions
+- Base quality scores
+- overall sequencing performance and other important indicators.
+
+Parameters and the command used:
+
+```
+sequali -t 12 --outdir "${barcode_folder}"/Quality_Reports  ${barcode_folder}/*.fastq
+
+# -t 12 - Number of threads/cpus, important in parallelization of read processing.
+```
 Read quality was assessed using **Sequali**:  
-https://github.com/rhpvorderman/sequali
+
 
 ### Read Length Distribution
 
