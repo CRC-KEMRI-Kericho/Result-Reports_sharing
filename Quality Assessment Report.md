@@ -66,7 +66,11 @@ sequali -t 12 --outdir "${barcode_folder}"/Quality_Reports  ${barcode_folder}/*.
 
 # -t 12 - Number of threads/cpus, important in parallelization of read processing.
 ```
-Read quality was assessed using **Sequali**:  
+
+In summary, read lengths ranged from 1 bp to over 215,000 bp. Quality scores varied across barcodes, spanning Phred scores of 3 to 45. Detailed per-barcode quality assessment reports are available via the links provided below.
+
+
+
 
 
 ### Read Length Distribution
