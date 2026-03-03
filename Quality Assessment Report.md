@@ -173,3 +173,35 @@ minimap2 -ax map-ont HXB2-Reference.fasta ${basedir}/barcode01/barcode01_filtere
 samtools sort -@ $THREADS -o ${basedir}/barcode01/barcode01_filtered.bam \
 samtools index ${basedir}/barcode01/barcode01_filtered.bam
 ```
+### Mapping results Visualization
+
+Tool: IGV Version 2.19.7 [Website](https://igv.org/doc/desktop/##usage-license-and-source-code)
+
+The generated visualizations can be accessed below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
