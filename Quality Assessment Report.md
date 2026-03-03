@@ -128,6 +128,8 @@ filtlong  barcode_01/*.fastq \
           --min_mean_q 7 > "${barcode_folder}/${barcode_name}_filtered.fastq"
 ```
 
+The filtered reads quality is re-accessed below
+
 ### Quality Re-assessment
 
 Tool: Sequali version 1.0.2 [GitHub](https://github.com/rhpvorderman/sequali)
