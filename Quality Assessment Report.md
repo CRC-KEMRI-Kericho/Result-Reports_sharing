@@ -179,7 +179,7 @@ samtools index ${basedir}/barcode01/barcode01_filtered.bam
 
 Tool: IGV Version 2.19.7 [Website](https://igv.org/doc/desktop/##usage-license-and-source-code)
 
-The generated visualizations can be accessed below:
+The generated visualization for the maps can be accessed below:
 
 - [Barcode01](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode01_map.png)
 - [Barcode02](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode02_map.png)
@@ -191,9 +191,9 @@ The generated visualizations can be accessed below:
 - [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode08_map.png)
 - [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/igv_files/Barcode09_map.png)
 
+  **Note** The accompanying Data files have been uploaded in the shared drive  [processed reads](https://hjf.box.com/s/8lspjn8rwbkklrq8xrx9ki4ob44hnkix)
 
-
-
+<h2 align="center">End of Report</h2>
 
 
 
