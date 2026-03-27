@@ -53,4 +53,16 @@ Below is a comparison using a MAX_ERROR of 4 for all the barcodes.
 | barcode09 | 9815  | 6646  | 3169  | 67.71 |
 
 
-The complete results for MAX_ERROR values ranging from 0 to 8 are available here: [MAX ERROR DATA]()
+The complete results for MAX_ERROR values ranging from 0 to 8 are available here: 
+
+#### MAX_ERROR Sweep Results per Barcode
+
+1. [Barcode01](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode01/Results/umi_sweep.csv)  
+2. [Barcode02](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode02/Results/umi_sweep.csv)  
+3. [Barcode03](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode03/Results/umi_sweep.csv)  
+4. [Barcode04](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode04/Results/umi_sweep.csv)  
+5. [Barcode05](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode05/Results/umi_sweep.csv)  
+6. [Barcode06](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode06/Results/umi_sweep.csv)  
+7. [Barcode07](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode07/Results/umi_sweep.csv)  
+8. [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode08/Results/umi_sweep.csv)  
+9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/umi_sweep.csv)  
