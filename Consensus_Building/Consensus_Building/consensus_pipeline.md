@@ -66,6 +66,8 @@ The complete results for MAX_ERROR values ranging from 0 to 8 are available here
 
 Detailed per-read information, including identified primer sequences, UMIs, strand orientation, and read lengths, is available via the links below:
 
+*Note: This files are huge (contains all the reads with umis)its advisable to download them and open with excel to have an organised view.*
+
 1. [Barcode01](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode01/Results/barcode01.umi_per_read.csv)  
 2. [Barcode02](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode02/Results/barcode02.umi_per_read.csv)  
 3. [Barcode03](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode03/Results/barcode03.umi_per_read.csv)  
@@ -74,5 +76,33 @@ Detailed per-read information, including identified primer sequences, UMIs, stra
 6. [Barcode06](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode06/Results/barcode06.umi_per_read.csv)  
 7. [Barcode07](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode07/Results/barcode07.umi_per_read.csv)  
 8. [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode08/Results/barcode08.umi_per_read.csv)  
-9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/barcode09.umi_per_read.csv)  
+9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/barcode09.umi_per_read.csv)
+
+### Step 3. UMI Correction
+
+For UMI correction, a strand-aware, abundance-guided directional adjacency approach was used to cluster similar UMIs while minimizing over-collapsing of distinct molecules. 
+For each strand independently, UMIs are sorted by abundance and treated as candidate root sequences. 
+Each high-abundance UMI is compared against all other UMIs, and neighboring UMIs within a defined Hamming distance threshold (≤2) are considered for merging. 
+A lower-abundance UMI is absorbed into a higher-abundance UMI only if the abundance criterion (count_high ≥ 2 × count_low − 1) is satisfied.
+This approach performs single-step (star-like) collapsing, where UMIs are directly assigned to the most abundant compatible root without iterative propagation through intermediate nodes. 
+As a result, merging is restricted to local neighborhoods, reducing the risk of chain-based over-collapsing.
+Overall, this strategy provides a conservative clustering of UMIs into molecular families, balancing error correction with preservation of distinct molecular signals.
+
+UMI correction substantially reduced the number of UMI families across all barcodes, indicating effective collapsing of sequencing and PCR-induced UMI errors.
+The remaining singleton families represent low-support or unique molecules that could not be confidently merged.
+
+#### UMI Correction Summary per Barcode
+
+| Barcode   | Total UMIs | Families Before | Families After | Singleton Families |
+|----------|------------|-----------------|----------------|--------------------|
+| barcode01 | 12216 | 4978 | 1051 | 184 |
+| barcode02 | 2175  | 1027 | 498  | 212 |
+| barcode03 | 6973  | 6489 | 1084 | 232 |
+| barcode04 | 8614  | 2642 | 815  | 218 |
+| barcode05 | 8459  | 7102 | 1093 | 220 |
+| barcode06 | 23365 | 2268 | 789  | 144 |
+| barcode07 | 5703  | 1564 | 608  | 180 |
+| barcode08 | 27993 | 2284 | 873  | 80  |
+| barcode09 | 6646  | 834  | 423  | 86  |
+
 
