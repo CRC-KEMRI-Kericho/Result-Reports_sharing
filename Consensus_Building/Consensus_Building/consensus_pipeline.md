@@ -105,4 +105,30 @@ The remaining singleton families represent low-support or unique molecules that 
 | barcode08 | 27993 | 2284 | 873  | 80  |
 | barcode09 | 6646  | 834  | 423  | 86  |
 
+#### UMI Family Composition After Correction
 
+A summary of UMI family composition following error correction is available via the links below:
+
+1. [Barcode01](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode01/Results/barcode01.umi_groups_corrected.csv)  
+2. [Barcode02](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode02/Results/barcode02.umi_groups_corrected.csv)  
+3. [Barcode03](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode03/Results/barcode03.umi_groups_corrected.csv)  
+4. [Barcode04](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode04/Results/barcode04.umi_groups_corrected.csv)  
+5. [Barcode05](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode05/Results/barcode05.umi_groups_corrected.csv)  
+6. [Barcode06](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode06/Results/barcode06.umi_groups_corrected.csv)  
+7. [Barcode07](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode07/Results/barcode07.umi_groups_corrected.csv)  
+8. [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode08/Results/barcode08.umi_groups_corrected.csv)  
+9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/barcode09.umi_groups_corrected.csv)  
+
+#### Corrected UMI Assignments (Per-Read)
+
+Detailed per-read corrected UMI assignments can be downloaded using the links below and viewed in spreadsheet software (e.g., Excel):
+
+1. [Barcode01](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode01/Results/barcode01.umi_per_read_corrected.csv)  
+2. [Barcode02](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode02/Results/barcode02.umi_per_read_corrected.csv)  
+3. [Barcode03](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode03/Results/barcode03.umi_per_read_corrected.csv)  
+4. [Barcode04](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode04/Results/barcode04.umi_per_read_corrected.csv)  
+5. [Barcode05](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode05/Results/barcode05.umi_per_read_corrected.csv)  
+6. [Barcode06](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode06/Results/barcode06.umi_per_read_corrected.csv)  
+7. [Barcode07](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode07/Results/barcode07.umi_per_read_corrected.csv)  
+8. [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode08/Results/barcode08.umi_per_read_corrected.csv)  
+9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/barcode09.umi_per_read_corrected.csv)  
