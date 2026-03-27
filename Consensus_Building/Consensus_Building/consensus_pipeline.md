@@ -27,10 +27,8 @@ No adapter trimming was performed at this stage to ensure that the primer sequen
 
 ### Step: 2. Primer Detection & UMI Extraction
 
-Primer detection was performed using approximate string matching with the edlib aligner in semi-global (HW) mode. A range of maximum edit distance thresholds (MAX_ERROR = 0–8) was systematically evaluated to assess the effect of mismatch tolerance on UMI recovery. For each read, all candidate primer match locations identified within the specified error threshold were evaluated, and the optimal match was selected based on the minimum edit distance.
-
+Primer detection was performed using approximate string matching with the edlib aligner in semi-global (HW) mode. A range of maximum edit distance thresholds (MAX_ERROR = 0–8) was evaluated to assess the effect of mismatch tolerance on UMI recovery. For each read, all candidate primer match locations identified within the specified error threshold were evaluated, and the optimal match was selected based on the minimum edit distance.
 A strict structural constraint was applied downstream of the primer: an exact match to the spacer sequence (GTG) was required immediately following the primer. Reads satisfying this condition were used to extract an 8 bp UMI (UMI_LEN = 8) located directly after the spacer. Primer mismatch counts were recalculated using global alignment (NW mode) restricted to the primer region to ensure accurate error quantification.
-
 UMI detection was performed on both forward and reverse complement orientations of each read. For reverse-strand matches, positional coordinates were transformed to the original read orientation. The final assignment for each read was determined by selecting the candidate with the lowest mismatch count across both strands.
 
 To evaluate parameter sensitivity, UMI extraction was repeated across all defined MAX_ERROR values (0–8). For each threshold, the total number of reads with valid UMI structures and the corresponding proportion relative to total reads were computed, along with the incremental gain in UMI recovery compared to the previous threshold. This parameter sweep enabled identification of an optimal mismatch threshold balancing sensitivity (UMI recovery) and specificity (correct primer detection) for downstream analysis.
@@ -53,9 +51,7 @@ Below is a comparison using a MAX_ERROR of 4 for all the barcodes.
 | barcode09 | 9815  | 6646  | 3169  | 67.71 |
 
 
-The complete results for MAX_ERROR values ranging from 0 to 8 are available here: 
-
-#### MAX_ERROR Sweep Results per Barcode
+The complete results for MAX_ERROR values ranging from 0 to 8 are available here for all the barcodes.
 
 1. [Barcode01](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode01/Results/umi_sweep.csv)  
 2. [Barcode02](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode02/Results/umi_sweep.csv)  
@@ -65,4 +61,10 @@ The complete results for MAX_ERROR values ranging from 0 to 8 are available here
 6. [Barcode06](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode06/Results/umi_sweep.csv)  
 7. [Barcode07](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode07/Results/umi_sweep.csv)  
 8. [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode08/Results/umi_sweep.csv)  
-9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/umi_sweep.csv)  
+9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/umi_sweep.csv)
+
+
+The identified UMIs can also be accessed using the links in the below:
+
+
+
