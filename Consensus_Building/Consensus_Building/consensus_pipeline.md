@@ -10,14 +10,12 @@ However, it is important to note that the following end-to-end pipelines exist f
 ## Workflow outline
 
 1. Input Reads Preparation
-2. Primer Detection & Orientation
-3. UMI Extraction
-4. UMI Correction
-5. UMI Clustering
-6. UMI Family Filtering
-7. Consensus Generation
-8. Polishing
-9. Final Sequences + Report
+2. Primer Detection & UMI Extraction
+3. UMI Correction
+4. UMI Family Filtering
+5. Consensus Generation
+6. Polishing
+7. Final Sequences + Report
 
 
 ### Step 1: Input Reads Preparation
@@ -131,4 +129,7 @@ Detailed per-read corrected UMI assignments can be downloaded using the links be
 6. [Barcode06](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode06/Results/barcode06.umi_per_read_corrected.csv)  
 7. [Barcode07](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode07/Results/barcode07.umi_per_read_corrected.csv)  
 8. [Barcode08](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode08/Results/barcode08.umi_per_read_corrected.csv)  
-9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/barcode09.umi_per_read_corrected.csv)  
+9. [Barcode09](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/barcode09/Results/barcode09.umi_per_read_corrected.csv)
+
+
+### Step 4 UMI Family Filtering (Currently on-going)
