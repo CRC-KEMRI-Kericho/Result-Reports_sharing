@@ -4,7 +4,7 @@ An analysis on the failed reads shows two categories of reads:
 
 1. Reads that the primer had higher mismatches than the set threshold of 8 and the spacer has errors.
 
-   | barcode   | primer only reads | Detailed csv |
+| barcode   | primer only reads | Detailed csv |
 |-----------|------------------|--------------|
 | Barcode01 | 270              | [Per Read csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode01.primer_only_reads.csv) |
 | Barcode02 | 98               | [Per Read csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode02.primer_only_reads.csv) |
