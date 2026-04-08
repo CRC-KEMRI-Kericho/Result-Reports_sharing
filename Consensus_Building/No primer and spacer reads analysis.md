@@ -33,7 +33,24 @@ An overall summary of per barcode;
 | barcode08 | TGACTAGCGGAGGCTAGAAGGAGAGA         | 26                                  | CTCTCCTTCTAGCCTCCGCTAGTCAA          | 26                                  | 12073                                             | 25450                                 | 16652                                                    |
 | barcode09 | TAAAGTTAGCAGGAAGATGGCCAGTAAA       | 28                                  | GGTCTCTCTTGTAGACCAGGTTGAGCCCG       | 29                                  | 1899                                              | 5608                                  | 3644                                                     |
 
-Detailed positions where the Dominant patterns in reads with no primer/spacer are found in reads with Primer, spacer, and umi were identified.
+### Descriptions
+
+- **Dominant 5' end pattern** → Most abundant sequence motif identified at the 5′ end (start) of reads lacking primer/spacer/UMI, within the defined pattern length range.
+
+- **Dominant 5' end pattern length (bp)** → Length (in base pairs) of the dominant 5′ end pattern.
+
+- **Dominant 3' end pattern** → Most abundant sequence motif identified at the 3′ end (end) of reads lacking primer/spacer/UMI, within the defined pattern length range.
+
+- **Dominant 3' end pattern length (bp)** → Length (in base pairs) of the dominant 3′ end pattern.
+
+- **Reads_without_primer_spacer_with_dominant_pattern** → Number of reads that lack detected primer/spacer/UMI but still contain either dominant 5′ or 3′ end pattern.
+
+- **Reads_with_Primer_Spacer_UMI_detected** → Total number of reads in which primer, spacer, and UMI were successfully identified.
+
+- **Reads_with_Primer_Spacer_UMI_with_dominant_pattern_match** → Number of UMI-positive reads that also contain at least one of the dominant 5′ or 3′ end patterns.
+
+
+#### Detailed positions where the Dominant patterns in reads with no primer/spacer are found in reads with Primer, spacer, and umi were identified.
 
 Barcode
 
