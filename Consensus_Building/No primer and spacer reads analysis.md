@@ -1,8 +1,10 @@
-# Report on failed Reads  analysis
+# Report on Failed Reads Analysis
 
-An analysis on the failed reads shows two categories of reads:
+An analysis of the failed reads reveals two primary categories:
 
-1. Reads that the primer had higher mismatches than the set threshold of 8 and the spacer has errors.
+## 1. Reads with high primer mismatches and spacer errors
+
+These reads contain primer-like sequences; however, the number of mismatches exceeds the defined threshold (≥ 8 mismatches), and the spacer sequence is either incorrect or degraded.
 
 | barcode   | primer only reads | Detailed csv |
 |-----------|------------------|--------------|
@@ -16,10 +18,13 @@ An analysis on the failed reads shows two categories of reads:
 | Barcode08 | 735              | [Per Read csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode08.primer_only_reads.csv) |
 | Barcode09 | 110              | [Per Read csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode09.primer_only_reads.csv) |
 
+---
 
-2. Reads that have no primer or primer like sequence or something that is close to a primer.
+## 2. Reads lacking detectable primer or primer-like sequences
 
-An overall summary of per barcode;
+These reads do not contain any detectable primer sequence or sufficiently similar sequence to pass the detection threshold.
+
+### Summary per barcode
 
 | barcode   | Dominant 5' end pattern            | Dominant 5' end pattern length (bp) | Dominant 3' end pattern             | Dominant 3' end pattern length (bp) | Reads_without_primer_spacer_with_dominant_pattern | Reads_with_Primer_Spacer_UMI_detected | Reads_with_Primer_Spacer_UMI_with_dominant_pattern_match |
 |-----------|------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|---------------------------------------------------|---------------------------------------|----------------------------------------------------------|
@@ -33,24 +38,66 @@ An overall summary of per barcode;
 | barcode08 | TGACTAGCGGAGGCTAGAAGGAGAGA         | 26                                  | CTCTCCTTCTAGCCTCCGCTAGTCAA          | 26                                  | 12073                                             | 25450                                 | 16652                                                    |
 | barcode09 | TAAAGTTAGCAGGAAGATGGCCAGTAAA       | 28                                  | GGTCTCTCTTGTAGACCAGGTTGAGCCCG       | 29                                  | 1899                                              | 5608                                  | 3644                                                     |
 
+---
+
 ### Descriptions
 
-- **Dominant 5' end pattern** → Most abundant sequence motif identified at the 5′ end (start) of reads lacking primer/spacer/UMI, within the defined pattern length range.
+- **Dominant 5' end pattern** → Most abundant sequence motif identified at the 5′ end of reads lacking primer/spacer/UMI.
 
 - **Dominant 5' end pattern length (bp)** → Length (in base pairs) of the dominant 5′ end pattern.
 
-- **Dominant 3' end pattern** → Most abundant sequence motif identified at the 3′ end (end) of reads lacking primer/spacer/UMI, within the defined pattern length range.
+- **Dominant 3' end pattern** → Most abundant sequence motif identified at the 3′ end of reads lacking primer/spacer/UMI.
 
 - **Dominant 3' end pattern length (bp)** → Length (in base pairs) of the dominant 3′ end pattern.
 
-- **Reads_without_primer_spacer_with_dominant_pattern** → Number of reads that lack detected primer/spacer/UMI but still contain either dominant 5′ or 3′ end pattern.
+- **Reads_without_primer_spacer_with_dominant_pattern** → Number of reads lacking primer/spacer/UMI that still contain either dominant 5′ or 3′ end pattern.
 
 - **Reads_with_Primer_Spacer_UMI_detected** → Total number of reads in which primer, spacer, and UMI were successfully identified.
 
-- **Reads_with_Primer_Spacer_UMI_with_dominant_pattern_match** → Number of UMI-positive reads that also contain at least one of the dominant 5′ or 3′ end patterns.
+- **Reads_with_Primer_Spacer_UMI_with_dominant_pattern_match** → Number of UMI-positive reads that also contain at least one of the dominant end patterns.
 
+---
 
-#### Detailed positions where the Dominant patterns in reads with no primer/spacer are found in reads with Primer, spacer, and umi were identified.
+#### Detailed positions of dominant patterns within UMI-positive reads
 
-Barcode
+This section maps the positions of dominant end patterns (derived from no-primer/spacer reads) within reads where primer, spacer, and UMI were successfully detected.
 
+- **pattern_side** → Indicates whether the dominant motif originates from the 5′ or 3′ end.
+
+- **source_pattern** → Dominant pattern identified from no-primer/spacer reads.
+
+- **pattern_length** → Length of the dominant pattern.
+
+- **pattern_reads_no_umi** → Number of no-primer/spacer reads supporting this pattern.
+
+- **matched_pattern** → Sequence observed in the read (forward or reverse complement).
+
+- **orientation** → Alignment orientation relative to the source pattern.
+
+- **read_id** → Identifier of the read containing the match.
+
+- **match_start / match_end** → 1-based coordinates of the pattern within the read.
+
+- **read_length** → Total read length.
+
+- **strand** → Orientation based on UMI detection.
+
+- **primer_spacer_umi_start / primer_spacer_umi_end** → Coordinates of the primer + spacer + UMI region.
+
+---
+
+| Barcode   | Detailed csv |
+|-----------|--------------|
+| Barcode01 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode01.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode02 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode02.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode03 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode03.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode04 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode04.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode05 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode05.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode06 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode06.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode07 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode07.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode08 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode08.top_no_umi_patterns_in_umi_reads.csv) |
+| Barcode09 | [Per Read positions csv](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/No_Primer_spcer_umi_reads_analysis/barcode09.top_no_umi_patterns_in_umi_reads.csv) |
+
+---
+
+**END OF REPORT**
