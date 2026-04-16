@@ -47,7 +47,7 @@ Primer–UMI structures were detected bidirectionally using edlib semi-global ma
 
 ### UMI Extraction Summary per Barcode
 
-| barcode      | Total_Reads | Reads_with_UMI | Primer_Only_Reads | No Primer+Spacer | UMI_Percentage |
+| barcode      | Total_Reads | Reads_with_UMI | Primer_Only_Reads | No Primer/Spacer/Degraded | UMI_Percentage |
 | ------------ | ----------: | -------------: | ----------------: | --------------------------: | -------------: |
 | Barcode01    |     237,905 |        190,961 |            40,105 |                       6,839 |          80.27 |
 | Barcode02    |      30,651 |         24,407 |             5,750 |                         494 |          79.63 |
