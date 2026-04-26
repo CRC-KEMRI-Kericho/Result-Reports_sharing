@@ -6,7 +6,8 @@ The evaluation focused on three key parameters: minimum read quality (`MIN_QUAL 
 
 | Barcode | Min Phred quality score | Chosen quality score | Detailed quality assessment |
 |--------|--------------------------|----------------------|-----------------------------|
-| Barcode01 | 4 | 7 | [Quality reports](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Report_quality_data/Barcode01_raw.html) |
+| Barcode01 | 4 | 7 | [Quality reports](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Report_quality_data/Barcode01_raw.html),[Average quality scores](<img width="321" height="173" alt="Barcode01" src="https://github.com/user-attachments/assets/037f652d-46de-4ef6-914b-cfc2a21dc925" />
+),[Graph](file:///C:/Users/Icipe/Downloads/per_sequence_quality_scores.svg) |
 | Barcode02 | TBD | 7 | [Quality reports](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Report_quality_data/Barcode02_raw.html) |
 | Barcode03 | TBD | 7 | [Quality reports](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Report_quality_data/Barcode03_raw.html) |
 | Barcode04 | TBD | 7 | [Quality reports](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Report_quality_data/Barcode04_raw.html) |
