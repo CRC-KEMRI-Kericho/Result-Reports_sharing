@@ -62,6 +62,20 @@ Primer–UMI structures were detected bidirectionally using edlib semi-global ma
 
 ## Step 3: UMI Correction
 
-I am currently working on recovering primer-only reads into valid UMI families, optimizing UMI error-correction and clustering approaches, and investigating the causes of failure observed in the previous dataset.
+UMI correction was performed using a conservative graph-based denoising approach designed to collapse likely sequencing-error UMIs while preserving biologically distinct molecules. Correction decisions were based on UMI sequence similarity, family abundance, and strand orientation, with no use of read sequence alignment or amplicon content.
+
+
+### Rules/Conditions for UMI Collapsing
+
+**1. Strand-orientation aware correction:** UMIs are corrected separately within each strand orientation, so reads from opposite orientations are never merged, preventing biologically distinct molecules from being incorrectly combined.
+   
+**2. Distance threshold:** **A child UMI can only collapse into a parent if its Hamming distance from the parent is less than or equal to the allowed mismatch threshold (MAX_DISTANCE), limiting merges to UMIs that differ only by small probable sequencing errors.
+
+**3. Abundance dominance rule:** A merge is only allowed when the parent count is sufficiently larger than the child count, following parent ≥ (2 × child) − 1, reducing the risk of collapsing two genuinely abundant independent molecules.
+
+**4. Abundance-priority parent selection:** The most abundant UMI in each strand orientation is evaluated first and used as the potential parent/root for collapsing lower-count neighbors, helping ensure likely true molecules absorb likely sequencing-error variants.
+
+**5. No chain merging:** Once a low-count UMI is merged into a parent, it cannot later act as a parent for other UMIs, preventing transitive over-collapsing where multiple distinct UMIs are incorrectly merged through an intermediate error UMI.
+
 
 ----End----
