@@ -77,5 +77,22 @@ UMI correction was performed using a conservative graph-based denoising approach
 
 **5. No chain merging:** Once a low-count UMI is merged into a parent, it cannot later act as a parent for other UMIs, preventing transitive over-collapsing where multiple distinct UMIs are incorrectly merged through an intermediate error UMI.
 
+### Comaprsion across different Distance thresholds
+
+### UMI Family Collapse Summary
+
+| Barcode | Raw UMI families | Distance=0 | Distance=1 | Distance=2 | Distance=3 | Distance=4 | Distance=5 | Distance=6 | Distance=7 | Distance=8 |
+|--------|------------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
+| Barcode01 | 38828 | 38828 | 16404 | 10110 | 9322 | 9241 | 9232 | 9225 | 9215 | 9212 |
+| Barcode02 | 6521 | 6521 | 4165 | 1581 | 902 | 765 | 734 | 725 | 723 | 723 |
+| Barcode03 | 50758 | 50758 | 20146 | 13320 | 12278 | 12108 | 12068 | 12057 | 12054 | 12051 |
+| Barcode04 | 20860 | 20860 | 9953 | 4816 | 4068 | 3937 | 3931 | 3930 | 3930 | 3930 |
+| Barcode05 | 49064 | 49064 | 18308 | 11497 | 10499 | 10342 | 10307 | 10298 | 10297 | 10297 |
+| Barcode06 | 18642 | 18642 | 8350 | 3947 | 3293 | 3263 | 3226 | 3165 | 3114 | 3105 |
+| Barcode07 | 11627 | 11627 | 6178 | 2526 | 1827 | 1706 | 1692 | 1683 | 1678 | 1676 |
+| Barcode08 | 18019 | 18019 | 7839 | 3630 | 3101 | 3011 | 2892 | 2822 | 2792 | 2787 |
+| Barcode09 | 2998 | 2998 | 1953 | 992 | 614 | 549 | 547 | 546 | 544 | 544 |
+
+
 
 ----End----
