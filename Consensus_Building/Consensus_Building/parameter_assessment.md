@@ -1,7 +1,8 @@
+---
 ## Parameter Assessment
 
-The evaluation focused on three key parameters: minimum read quality (`MIN_QUAL = 9 and 10`), spacer mismatch tolerance (`SPACER_MAX_ERROR = 0`), and primer mismatch allowance (`MAX_ERROR = 0, 10–18`). A total of 20 parameter combinations were systematically tested to measure their impact on read retention, UMI recovery, and overall processing efficiency. The objective was to identify settings that maximize accurate UMI extraction while minimizing false-positive assignments and loss of biologically valid reads.
-
+The evaluation focused on three key parameters: minimum read quality (`MIN_QUAL = 9 and 10`), spacer mismatch tolerance (`SPACER_MAX_ERROR = 0`), and primer mismatch allowance (`MAX_ERROR = 0,–18`). A total of 20 parameter combinations were systematically tested to measure their impact on read retention, UMI recovery, and overall processing efficiency. The objective was to identify settings that maximize accurate UMI extraction while minimizing false-positive assignments and loss of biologically valid reads.
+---
 ### Phred Score Quality of the filtered reads across Barcodes
 
 | Barcode | Min Phred quality score | Selected quality score | Detailed quality assessment |
@@ -16,9 +17,28 @@ The evaluation focused on three key parameters: minimum read quality (`MIN_QUAL 
 | Barcode08 | <=4 | >=7 | [Barcode08 Complete Quality reports](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Report_quality_data/Barcode08_raw.html), [Average quality scores](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Quality_shots/Barcode08_AVQ.png), [Graph](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Quality_shots/Barcode08_AVQ_viz.png) |
 | Barcode09 | <=3 | >=6 | [Barcode09 Complete Quality reports](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Report_quality_data/Barcode09_raw.html), [Average quality scores](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Quality_shots/Barcode09_AVQ.png), [Graph](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Parameter_Asssessment/Quality_shots/Barcode09_AVQ_viz.png) |
 
-### Min Phred score Quality 9
+---
+### Read Categorization
 
-Counts are based on rows in `BarcodeXX.umi_per_read.csv`.
+### MQ9 SP0 MAXERR0 Read Category Summary
+
+| Barcode | Total Reads | UMI per read | Primer only | Spacer only |
+|--------|-------------|--------------|-------------|-------------|
+| Barcode01 | 216323 | 167527 | 16032 | 6470 |
+| Barcode02 | 24081 | 18712 | 4870 | 110 |
+| Barcode03 | 125717 | 79683 | 42448 | 697 |
+| Barcode04 | 129951 | 103063 | 10039 | 3653 |
+| Barcode05 | 173847 | 101755 | 63249 | 974 |
+| Barcode06 | 384197 | 313873 | 27327 | 9436 |
+| Barcode07 | 76121 | 59443 | 15508 | 325 |
+| Barcode08 | 435014 | 356338 | 32468 | 9615 |
+| Barcode09 | 59261 | 48060 | 10256 | 219 |
+
+---
+
+# Variation Across 1 to 18 (primer length)
+
+### Min Phred score Quality 9
 
 | Barcode | Raw Reads | Primer Max error=0 | Primer Max error=1 | Primer Max error=2 | Primer Max error=3 | Primer Max error=4 | Primer Max error=5 | Primer Max error=6 | Primer Max error=7 | Primer Max error=8 | Primer Max error=9 | Primer Max error=10 | Primer Max error=11 | Primer Max error=12 | Primer Max error=13 | Primer Max error=14 | Primer Max error=15 | Primer Max error=16 | Primer Max error=17 | Primer Max error=18 |
 |--------|-----------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
@@ -34,8 +54,6 @@ Counts are based on rows in `BarcodeXX.umi_per_read.csv`.
 
 
 ### Min Phred score Quality 10
-
-Counts are based on rows in `BarcodeXX.umi_per_read.csv`.
 
 | Barcode | Raw Reads | Primer Max error=0 | Primer Max error=1 | Primer Max error=2 | Primer Max error=3 | Primer Max error=4 | Primer Max error=5 | Primer Max error=6 | Primer Max error=7 | Primer Max error=8 | Primer Max error=9 | Primer Max error=10 | Primer Max error=11 | Primer Max error=12 | Primer Max error=13 | Primer Max error=14 | Primer Max error=15 | Primer Max error=16 | Primer Max error=17 | Primer Max error=18 |
 |--------|-----------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
