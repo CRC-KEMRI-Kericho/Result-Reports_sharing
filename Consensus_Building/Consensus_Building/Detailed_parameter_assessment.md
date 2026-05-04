@@ -1,12 +1,12 @@
 ## Detailed Parameter analysis assessment
 
-The analysis involved a distributed parameter sweep to evaluate the impact of read quality filtering and UMI detection stringency on UMI family recovery across all the barcodes. :contentReference[oaicite:0]{index=0}  
+The analysis involved a distributed parameter sweep to evaluate the impact of read quality filtering and UMI detection stringency on UMI family recovery across all the barcodes. 
 
-For each parameter combination, defined by minimum Phred quality score (MQ15–MQ23) and maximum allowed UMI detection error (MAXERR0–MAXERR18), reads were processed through three sequential steps:
+For each parameter combination, defined by minimum Phred quality score (Phred score quality 15 to 23) and maximum allowed UMI detection error (MAXERR0–MAXERR18), reads were processed through three sequential steps:
 
 1. read pre-processing  
 2. primer–spacer–UMI detection  
-3. UMI correction using a strand-aware clustering approach  
+3. UMI correction  
 
 The sweep explored a total of:
 
@@ -14,7 +14,7 @@ The sweep explored a total of:
 - 19 UMI detection error levels (0–18)
 - 1 spacer mismatch setting (SP=0)
 
-resulting in 171 parameter combinations per barcode.
+resulting in 171 parameter combinations/runs per barcode.
 
 ---
 
@@ -32,19 +32,16 @@ Description of columns:
 
 - **UMI_families_Dist_0:** Number of unique UMI families before error correction.  
 
-- **UMI_families_Dist_1:** Number of UMI families after correction (collapsed families).  
+- **UMI_families_Dist_1:** Number of UMI families after correction (collapsed families, allowed mismatch=1).  
 
 - **family_size > N:** Number of UMI families with read_count greater than N (e.g., family_size>5 = families supported by >5 reads).  
 
 - **Largest_family_size:** Maximum number of reads observed in a single UMI family in that barcode.  
 
----
-### Examples
-
 - **Phred score:** Minimum base quality threshold applied to filter low-quality reads.
 
 - **Max error:** Maximum allowed mismatches during UMI detection (0 = exact matching only).
-
+---
 
 ### Phred score quality 17 and Max Error 0:
 
@@ -59,7 +56,6 @@ Description of columns:
 | Barcode07 | 46047     | 40623     | 88.22 | 3976                                 | 2739                                | 443           | 406           | 384           | 360           | 347           | 328            | 315            | 300            | 293            | 282            | 274            | 269            | 262            | 256            | 244            | 235            | 213            | 197            | 185            | 146             | 451                 |
 | Barcode08 | 319762    | 292934    | 91.61 | 8430                                 | 4149                                | 1103          | 1048          | 1014          | 991           | 978           | 961            | 951            | 937            | 934            | 928            | 924            | 918            | 909            | 905            | 904            | 901            | 882            | 874            | 871            | 840             | 812                 |
 | Barcode09 | 40392     | 36185     | 89.58 | 1303                                 | 924                                 | 485           | 481           | 470           | 467           | 457           | 452            | 444            | 427            | 418            | 406            | 397            | 387            | 379            | 370            | 367            | 361            | 280            | 228            | 200            | 145             | 296                 |
-
 
 
 ### Phred score quality 18 and Max Error 0: 
@@ -108,8 +104,7 @@ Description of columns:
 
 
 
-The rest of the parameter combinations, totaling up to 171 runs, can be accessed here [High Level summary parameter combination assessments](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/tree/main/Consensus_Building/Consensus_Building/Results/collected_high_level_summaries)
-
+The rest of the parameter combinations, can be accessed here [High Level summary parameter combination assessments](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/tree/main/Consensus_Building/Consensus_Building/Results/collected_high_level_summaries)
 
 ### Best Parameter combinations per Barcode across the 171 runs are shown below: 
 
