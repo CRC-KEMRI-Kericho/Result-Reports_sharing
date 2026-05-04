@@ -106,9 +106,81 @@ Description of columns:
 
 The rest of the parameter combinations, can be accessed here [High Level summary parameter combination assessments](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/tree/main/Consensus_Building/Consensus_Building/Results/collected_high_level_summaries)
 
-### Best Parameter combinations per Barcode across the 171 runs are shown below: 
+### Best Parameter combinations per Barcode across the 171 runs are shown below:
 
-**To be shared during the update meeting**
+The table gives the **top 3 parameter combinations per barcode**.
+
+### Column description:
+
+- **Barcode**: identifier of the sample or sequencing bin  
+- **Rank**: priority order of the selected parameter combination  
+- **Phred_score_quality**: minimum basecalling quality threshold applied  
+- **Max_error**: maximum allowed mismatches during primer/UMI detection  
+- **Min Family size**: minimum read count required per UMI family  
+- **Number of umi families**: total UMI families meeting the threshold  
+- **Largest_family_size**: highest read count observed within a single UMI family  
+
+<table>
+<thead>
+<tr>
+<th>Barcode</th>
+<th>Rank</th>
+<th>Phred_score_quality</th>
+<th>Max_error</th>
+<th>Min Familly size </th>
+<th>Number of umi families </th>
+<th>Largest_family_size</th>
+<th>Run_ID</th>
+</tr>
+</thead>
+<tbody>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode01</b></td></tr>
+<tr><td>Barcode01</td><td>1</td><td>16</td><td>0</td><td>141</td><td>275</td><td>374</td><td>MQ16_SP0_MAXERR0</td></tr>
+<tr><td>Barcode01</td><td>2</td><td>16</td><td>1</td><td>137</td><td>275</td><td>372</td><td>MQ16_SP0_MAXERR1</td></tr>
+<tr><td>Barcode01</td><td>3</td><td>17</td><td>0</td><td>136</td><td>275</td><td>365</td><td>MQ17_SP0_MAXERR0</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode02</b></td></tr>
+<tr><td>Barcode02</td><td>1</td><td>16</td><td>0</td><td>4</td><td>240</td><td>696</td><td>MQ16_SP0_MAXERR0</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode03</b></td></tr>
+<tr><td>Barcode03</td><td>1</td><td>16</td><td>1</td><td>11</td><td>280</td><td>105</td><td>MQ16_SP0_MAXERR1</td></tr>
+<tr><td>Barcode03</td><td>2</td><td>19</td><td>4</td><td>6</td><td>266</td><td>78</td><td>MQ19_SP0_MAXERR4</td></tr>
+<tr><td>Barcode03</td><td>3</td><td>19</td><td>8</td><td>6</td><td>266</td><td>78</td><td>MQ19_SP0_MAXERR8</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode04</b></td></tr>
+<tr><td>Barcode04</td><td>1</td><td>16</td><td>1</td><td>63</td><td>275</td><td>528</td><td>MQ16_SP0_MAXERR1</td></tr>
+<tr><td>Barcode04</td><td>2</td><td>16</td><td>2</td><td>63</td><td>275</td><td>528</td><td>MQ16_SP0_MAXERR2</td></tr>
+<tr><td>Barcode04</td><td>3</td><td>16</td><td>3</td><td>63</td><td>275</td><td>528</td><td>MQ16_SP0_MAXERR3</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode05</b></td></tr>
+<tr><td>Barcode05</td><td>1</td><td>17</td><td>1</td><td>12</td><td>272</td><td>203</td><td>MQ17_SP0_MAXERR1</td></tr>
+<tr><td>Barcode05</td><td>2</td><td>17</td><td>2</td><td>12</td><td>272</td><td>205</td><td>MQ17_SP0_MAXERR2</td></tr>
+<tr><td>Barcode05</td><td>3</td><td>17</td><td>3</td><td>12</td><td>271</td><td>205</td><td>MQ17_SP0_MAXERR3</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode06</b></td></tr>
+<tr><td>Barcode06</td><td>1</td><td>22</td><td>0</td><td>77</td><td>275</td><td>173</td><td>MQ22_SP0_MAXERR0</td></tr>
+<tr><td>Barcode06</td><td>2</td><td>21</td><td>1</td><td>165</td><td>276</td><td>358</td><td>MQ21_SP0_MAXERR1</td></tr>
+<tr><td>Barcode06</td><td>3</td><td>21</td><td>0</td><td>166</td><td>277</td><td>358</td><td>MQ21_SP0_MAXERR0</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode07</b></td></tr>
+<tr><td>Barcode07</td><td>1</td><td>17</td><td>0</td><td>16</td><td>274</td><td>451</td><td>MQ17_SP0_MAXERR0</td></tr>
+<tr><td>Barcode07</td><td>2</td><td>18</td><td>1</td><td>14</td><td>276</td><td>403</td><td>MQ18_SP0_MAXERR1</td></tr>
+<tr><td>Barcode07</td><td>3</td><td>18</td><td>2</td><td>14</td><td>276</td><td>403</td><td>MQ18_SP0_MAXERR2</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode08</b></td></tr>
+<tr><td>Barcode08</td><td>1</td><td>21</td><td>1</td><td>140</td><td>277</td><td>301</td><td>MQ21_SP0_MAXERR1</td></tr>
+<tr><td>Barcode08</td><td>2</td><td>21</td><td>2</td><td>140</td><td>278</td><td>301</td><td>MQ21_SP0_MAXERR2</td></tr>
+<tr><td>Barcode08</td><td>3</td><td>21</td><td>3</td><td>140</td><td>278</td><td>301</td><td>MQ21_SP0_MAXERR3</td></tr>
+
+<tr style="background-color:#e6e6e6;"><td colspan="8"><b>Barcode09</b></td></tr>
+<tr><td>Barcode09</td><td>1</td><td>17</td><td>2</td><td>32</td><td>274</td><td>296</td><td>MQ17_SP0_MAXERR2</td></tr>
+<tr><td>Barcode09</td><td>2</td><td>17</td><td>3</td><td>32</td><td>274</td><td>296</td><td>MQ17_SP0_MAXERR3</td></tr>
+<tr><td>Barcode09</td><td>3</td><td>17</td><td>4</td><td>32</td><td>274</td><td>296</td><td>MQ17_SP0_MAXERR4</td></tr>
+
+</tbody>
+</table>
+
 
 ----End of Report---
 
