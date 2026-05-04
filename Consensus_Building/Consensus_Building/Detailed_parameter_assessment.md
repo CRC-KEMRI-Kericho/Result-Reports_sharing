@@ -24,7 +24,7 @@ Description of columns:
 
 - **Barcode:** Sample identifier for each dataset.  
 
-- **Raw_Reads:** Reads retained after preprocessing and coordinate filtering.  
+- **Raw_Reads:** Reads retained after preprocessing.  
 
 - **UMI_Reads:** Reads containing a valid UMI structure.  
 
