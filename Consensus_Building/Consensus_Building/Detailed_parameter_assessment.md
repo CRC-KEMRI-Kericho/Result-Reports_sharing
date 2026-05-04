@@ -30,9 +30,9 @@ Description of columns:
 
 - **UMI%:** Percentage of reads with UMIs relative to retained reads.  
 
-- **UMI_families_Dist0_before_correction:** Number of unique UMI families before error correction.  
+- **UMI_families_Dist_0:** Number of unique UMI families before error correction.  
 
-- **UMI_families_Dist_1_after_correction:** Number of UMI families after correction (collapsed families).  
+- **UMI_families_Dist_1:** Number of UMI families after correction (collapsed families).  
 
 - **family_size > N:** Number of UMI families with read_count greater than N (e.g., family_size>5 = families supported by >5 reads).  
 
