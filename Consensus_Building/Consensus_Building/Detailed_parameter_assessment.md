@@ -110,20 +110,10 @@ Description of columns:
 
 The rest of the parameter combinations, totaling up to 171 runs, can be accessed here [High Level summary parameter combination assessments](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/tree/main/Consensus_Building/Consensus_Building/Results/collected_high_level_summaries)
 
+
 ### Best Parameter combinations per Barcode across the 171 runs are shown below: 
 
-| Barcode   | Phred_score_quality | Max_error | Family_size_filtering | Families_after_filtering |
-| --------- | ------------------- | --------- | --------------------- | ------------------------ |
-| Barcode01 | 21                  | 0         | family_size>100       | 241                      |
-| Barcode02 | 15                  | 10        | family_size>4         | 213                      |
-| Barcode03 | 17                  | 5         | family_size>9         | 244                      |
-| Barcode04 | 23                  | 1         | family_size>4         | 259                      |
-| Barcode05 | 18                  | 0         | family_size>8         | 255                      |
-| Barcode06 | 23                  | 0         | family_size>25        | 224                      |
-| Barcode07 | 20                  | 0         | family_size>8         | 252                      |
-| Barcode08 | 23                  | 1         | family_size>25        | 89                       |
-| Barcode09 | 22                  | 0         | family_size>5         | 252                      |
-
+**To be shared during the update meeting**
 
 ----End of Report---
 
