@@ -116,7 +116,7 @@ The table gives the **top 3 parameter combinations per barcode**.
 - **Rank**: priority order of the selected parameter combination  
 - **Phred_score_quality**: minimum basecalling quality threshold applied  
 - **Max_error**: maximum allowed mismatches during primer/UMI detection  
-- **Min Family size**: minimum read count required per UMI family  
+- **Min Family size**: minimum read count in one or more of the UMI families  
 - **Number of umi families**: total UMI families meeting the threshold  
 - **Largest_family_size**: highest read count observed within a single UMI family  
 
