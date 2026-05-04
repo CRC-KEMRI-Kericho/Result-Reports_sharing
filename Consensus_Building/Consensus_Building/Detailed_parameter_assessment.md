@@ -36,7 +36,7 @@ Description of columns:
 
 - **family_size > N:** Number of UMI families with read_count greater than N (e.g., family_size>5 = families supported by >5 reads).  
 
-- **Largest_family_size:** Maximum number of reads observed in a single UMI family.  
+- **Largest_family_size:** Maximum number of reads observed in a single UMI family in that barcode.  
 
 ---
 ### Examples
