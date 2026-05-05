@@ -108,6 +108,66 @@ The rest of the parameter combinations, can be accessed here [High Level summary
 
 ### Best Parameter combinations per Barcode across the 171 runs are shown below:
 
+## Parameter Selection Strategy
+
+The script determines the optimal parameter combinations **independently for each barcode** using a structured, priority-based approach.
+
+---
+
+### 1. Parameter Space Considered
+
+- For each run, multiple **family-size thresholds** are assessed  
+- At each threshold, the script computes the number of UMI families satisfying: **read_count ≥ threshold**
+
+---
+
+### 2. Target-Based Filtering
+
+The method assumes an expected number of templates and defines an acceptable range around it:
+
+- **Expected number of UMI families**: ~target value (e.g., ~260)  
+- **Tolerance window**: ± a fixed margin (e.g., ±15)  
+
+
+Only parameter combinations producing UMI family counts within this interval are considered **optimal candidates**.
+
+---
+
+### 3. Ranking Within the Acceptable Range
+
+If multiple candidates fall within the expected range, they are ranked using the following priorities:
+
+1. **Higher Phred score quality**  
+   *(favoring more reliable basecalls)*  
+2. **Closer to the expected number of UMI families**  
+   *(minimizing deviation from the target)*  
+3. **Lower allowed error (Max_error)**  
+   *(stricter matching criteria preferred)*  
+4. **Lower family-size threshold**  
+   *(retaining more data while maintaining validity)*  
+
+---
+
+### 4. Fallback Strategy
+
+If no parameter combination falls within the acceptable range, the script selects the closest alternatives:
+
+- **Rank 1**: Parameter set producing a value just above the upper bound  
+- **Rank 2**: Parameter set producing a value just below the lower bound  
+
+This ensures that each barcode is assigned the most biologically plausible parameters.
+
+---
+
+### 5. Summary
+
+In essence, the selection strategy aims to:
+
+- Recover a number of UMI families consistent with the expected template count  
+- Prioritize high-quality sequencing data  
+- Balance accuracy (error tolerance) with data retention (family-size threshold)  
+ 
+
 The table gives the **top 3 parameter combinations per barcode**.
 
 ### Column description:
