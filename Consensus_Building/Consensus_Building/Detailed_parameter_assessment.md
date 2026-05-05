@@ -137,14 +137,10 @@ Only parameter combinations producing UMI family counts within this interval are
 
 If multiple candidates fall within the expected range, they are ranked using the following priorities:
 
-1. **Higher Phred score quality**  
-   *(favoring more reliable basecalls)*  
-2. **Closer to the expected number of UMI families**  
-   *(minimizing deviation from the target)*  
-3. **Lower allowed error (Max_error)**  
-   *(stricter matching criteria preferred)*  
-4. **Lower family-size threshold**  
-   *(retaining more data while maintaining validity)*  
+1. **Higher Phred score quality** - favoring more reliable basecalls  
+2. **Closer to the expected number of UMI families** - minimizing deviation from the target  
+3. **Lower allowed error (Max_error)** - stricter matching criteria preferred 
+4. **Higher family-size threshold** - retaining accurate calls while maintaining validity 
 
 ---
 
