@@ -69,10 +69,6 @@ For the current analysis, a **family-size threshold of 6 reads** will initially 
 - UMI recovery,
 - and retention of sufficient consensus families.
 
-However, this threshold  varies depending on the barcode-specific assessments summarized in the table below.
-
----
-
 ### UMI Famillies analysis table
 
 | Barcode | Corrected_UMI_families_distance1 | Family_size_>=6 | Family_size_>=7 | Family_size_>=8 | Family_size_>=9 | Family_size_>=10 |
