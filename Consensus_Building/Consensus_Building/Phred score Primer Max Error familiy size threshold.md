@@ -9,9 +9,9 @@
    - Lowest primer mismatch tolerance (**MAXERR**) to enforce stricter primer matching conditions.
 
 This approach balances:
-- read quality,
-- UMI recovery efficiency,
-- and primer specificity.
+- Read quality,
+- UMI recovery efficiency and,
+- primer specificity.
 
 ---
 
