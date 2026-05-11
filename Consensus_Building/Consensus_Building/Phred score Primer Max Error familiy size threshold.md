@@ -2,11 +2,9 @@
 
 ### Workflow
 
-1. Calculate the percentage of original reads successfully assigned to UMIs to assess overall UMI recovery efficiency.
+1. Identify the highest UMI recovery percentage obtained for each barcode/sample/participant.
 
-2. Identify the highest UMI recovery percentage obtained for each barcode to determine the best-performing parameter combination.
-
-3. Among runs with near-optimal UMI recovery, prioritize the:
+2. Among runs with near-optimal UMI recovery, prioritize the:
    - Highest Phred quality score (**MQ**) to favor higher-quality reads.
    - Lowest primer mismatch tolerance (**MAXERR**) to enforce stricter primer matching conditions.
 
