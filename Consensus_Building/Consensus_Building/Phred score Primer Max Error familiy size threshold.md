@@ -27,7 +27,7 @@ This approach balances:
 
 ---
 
-### Family Size Thresholds
+### UMI Correction, Family Assignment, and Family Size Thresholds Determination
 
 A study by [**Amstler et al. (2024)**](https://link.springer.com/article/10.1186/s13073-024-01391-8) evaluating UMI-based Oxford Nanopore consensus sequence generation for complex VNTR (Variable Number Tandem Repeat) regions 
 showed that family-size thresholds between **6 and 10 reads per UMI cluster** were sufficient to achieve high-quality consensus generation, with:
