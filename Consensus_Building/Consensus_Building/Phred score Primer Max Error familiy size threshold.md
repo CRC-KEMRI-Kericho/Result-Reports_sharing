@@ -47,7 +47,7 @@ This approach balances:
 | Barcode08 | 292198 | 8412 | 4129 |
 | Barcode09 | 36076 | 1281 | 906 |
 
-
+---
 ## Family Assignment and Family Size Thresholds Determination
 
 A study by [**Amstler et al. (2024)**](https://link.springer.com/article/10.1186/s13073-024-01391-8) evaluating UMI-based Oxford Nanopore consensus sequence generation for complex VNTR (Variable Number Tandem Repeat) regions 
