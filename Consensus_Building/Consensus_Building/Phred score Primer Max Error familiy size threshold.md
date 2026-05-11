@@ -54,16 +54,17 @@ However, this threshold may vary depending on the barcode-specific assessments s
 
 ### UMI Famillies analysis table
 
-| Barcode | Reads_assigned_to_UMIs | UMI_families_corrected_dist0 | Total_corrected_UMI_families_distance1 | Family_size_>6 | Family_size_>7 | Family_size_>8 | Family_size_>9 | Family_size_>10 |
+| Barcode | Reads_assigned_to_UMIs | UMI_families | Corrected_UMI_families_distance1 | Family_size_>=6 | Family_size_>=7 | Family_size_>=8 | Family_size_>=9 | Family_size_>=10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Barcode01 | 140858 | 30154 | 13349 | 2747 | 2471 | 2231 | 2055 | 1896 |
-| Barcode02 | 14070 | 3854 | 2820 | 158 | 145 | 134 | 130 | 120 |
-| Barcode03 | 67467 | 41752 | 16771 | 2860 | 2436 | 2053 | 1723 | 1451 |
-| Barcode04 | 85246 | 15140 | 7933 | 1110 | 991 | 885 | 825 | 765 |
-| Barcode05 | 106532 | 45638 | 16331 | 4080 | 3574 | 3183 | 2811 | 2520 |
-| Barcode06 | 259820 | 9868 | 5133 | 986 | 931 | 884 | 851 | 826 |
-| Barcode07 | 49163 | 6728 | 4232 | 523 | 476 | 436 | 426 | 394 |
-| Barcode08 | 292198 | 8412 | 4129 | 1049 | 1015 | 988 | 976 | 960 |
+| Barcode01 | 140858 | 30154 | 13349 | 3112 | 2747 | 2471 | 2231 | 2055 |
+| Barcode02 | 14070 | 3854 | 2820 | 179 | 158 | 145 | 134 | 130 |
+| Barcode03 | 67467 | 41752 | 16771 | 3418 | 2860 | 2436 | 2053 | 1723 |
+| Barcode04 | 85246 | 15140 | 7933 | 1286 | 1110 | 991 | 885 | 825 |
+| Barcode05 | 106532 | 45638 | 16331 | 4590 | 4080 | 3574 | 3183 | 2811 |
+| Barcode06 | 259820 | 9868 | 5133 | 1085 | 986 | 931 | 884 | 851 |
+| Barcode07 | 49163 | 6728 | 4232 | 587 | 523 | 476 | 436 | 426 |
+| Barcode08 | 292198 | 8412 | 4129 | 1101 | 1049 | 1015 | 988 | 976 |
+| Barcode09 | 36076 | 1281 | 906 | 485 | 481 | 470 | 467 | 456 |
 
 
 
