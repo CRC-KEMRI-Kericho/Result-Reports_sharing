@@ -27,13 +27,13 @@ This approach balances:
 
 ---
 
-### UMI Correction, Family Assignment, and Family Size Thresholds Determination
+## UMI Correction
 
 #### 3 main points/Rules:
 
-1. Only a single mismatch is allowed when comparing UMIs.
-2. Low-abundance child UMIs are merged into higher-abundance parent UMIs.
-3. No chain merging is allowed, which prevents overcollapsing
+- Only a single mismatch is allowed when comparing UMIs.
+- Low-abundance child UMIs are merged into higher-abundance parent UMIs.
+- No chain merging is allowed, which prevents overcollapsing
 
 | Barcode | Reads_assigned_to_UMIs | UMI_families | Corrected_UMI_families_distance1 |
 |---|---:|---:|---:|
@@ -46,6 +46,9 @@ This approach balances:
 | Barcode07 | 49163 | 6728 | 4232 |
 | Barcode08 | 292198 | 8412 | 4129 |
 | Barcode09 | 36076 | 1281 | 906 |
+
+
+## Family Assignment and Family Size Thresholds Determination
 
 A study by [**Amstler et al. (2024)**](https://link.springer.com/article/10.1186/s13073-024-01391-8) evaluating UMI-based Oxford Nanopore consensus sequence generation for complex VNTR (Variable Number Tandem Repeat) regions 
 showed that family-size thresholds between **6 and 10 reads per UMI cluster** were sufficient to achieve high-quality consensus generation, with:
@@ -60,13 +63,13 @@ Further reported that at a family size threshold of **6 reads**, the majority of
 - error-free, or
 - contained no more than two errors.
 
-For the current analysis, a **family-size threshold of 8 reads** will initially be our threshold as a balance between:
+For the current analysis, a **family-size threshold of 6 reads** will initially be our threshold as a balance between:
 
 - consensus accuracy,
 - UMI recovery,
 - and retention of sufficient consensus families.
 
-However, this threshold may vary depending on the barcode-specific assessments summarized in the table below.
+However, this threshold  varies depending on the barcode-specific assessments summarized in the table below.
 
 ---
 
