@@ -15,15 +15,17 @@ This approach balances:
 
 ### Top Parameter Combinations per barcode based on the above criteria
 
-| Barcode | Rank | Phred_score_quality_MQ | Max_primer_error | Raw Reads | Reads_retained_after_quality filtering| Reads_assigned_to_UMIs | UMI_percent_of_retained_reads |
+| Barcode | Rank | Phred_score_quality_MQ | Max_primer_error | Raw Reads | Reads_retained_after_Quality_filtering | Reads_assigned_to_UMIs | UMI_percent_of_retained_reads |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Barcode01 | 1 | 17 | 0 | 251757 | 152643 | 140858 | 92.28 |
-| Barcode02 | 1 | 14 | 0 | 35320 | 16035 | 14070 | 87.75 |
-| Barcode03 | 1 | 12 | 2 | 182763 | 84780 | 67467 | 79.58 |
-| Barcode04 | 1 | 17 | 0 | 155571 | 93967 | 85246 | 90.72 |
-| Barcode05 | 1 | 11 | 1 | 252654 | 137586 | 106532 | 77.43 |
-| Barcode06 | 1 | 17 | 0 | 441773 | 281978 | 259820 | 92.14 |
-| Barcode07 | 1 | 14 | 0 | 97921 | 56805 | 49163 | 86.55 |
+| Barcode01 | 1 | 14 | 0 | 251757 | 165143 | 151067 | 91.48 |
+| Barcode02 | 2 | 11 | 1 | 35320 | 18141 | 15731 | 86.72 |
+| Barcode03 | 3 | 10 | 4 | 182763 | 95965 | 76130 | 79.33 |
+| Barcode04 | 1 | 14 | 0 | 155571 | 105033 | 94246 | 89.73 |
+| Barcode05 | 3 | 9 | 3 | 252654 | 152802 | 118478 | 77.54 |
+| Barcode06 | 1 | 13 | 0 | 441773 | 321313 | 291637 | 90.76 |
+| Barcode07 | 3 | 10 | 2 | 97921 | 63886 | 55442 | 86.78 |
+| Barcode08 | 1 | 14 | 0 | 511993 | 356964 | 323660 | 90.67 |
+| Barcode09 | 3 | 13 | 3 | 99123 | 45577 | 40682 | 89.26 |
 
 ---
 
@@ -37,15 +39,15 @@ This approach balances:
 
 | Barcode | Reads_assigned_to_UMIs | UMI_families | Corrected_UMI_families_distance1 |
 |---|---:|---:|---:|
-| Barcode01 | 140858 | 30154 | 13349 |
-| Barcode02 | 14070 | 3854 | 2820 |
-| Barcode03 | 67467 | 41752 | 16771 |
-| Barcode04 | 85246 | 15140 | 7933 |
-| Barcode05 | 106532 | 45638 | 16331 |
-| Barcode06 | 259820 | 9868 | 5133 |
-| Barcode07 | 49163 | 6728 | 4232 |
-| Barcode08 | 292198 | 8412 | 4129 |
-| Barcode09 | 36076 | 1281 | 906 |
+| Barcode01 | 151067 | 32111 | 14061 |
+| Barcode02 | 15731 | 4870 | 3398 |
+| Barcode03 | 76130 | 45276 | 17706 |
+| Barcode04 | 94246 | 16643 | 8508 |
+| Barcode05 | 118478 | 49032 | 17327 |
+| Barcode06 | 291637 | 11707 | 5818 |
+| Barcode07 | 55442 | 9643 | 5385 |
+| Barcode08 | 323660 | 9937 | 4697 |
+| Barcode09 | 40682 | 1541 | 1067 |
 
 ---
 ## Family Assignment and Family Size Thresholds
@@ -73,15 +75,15 @@ For the current analysis, a **family-size threshold of 6 reads** will initially 
 
 | Barcode | Corrected_UMI_families_distance1 | Family_size_>=6 | Family_size_>=7 | Family_size_>=8 | Family_size_>=9 | Family_size_>=10 |
 |---|---:|---:|---:|---:|---:|---:|
-| Barcode01 | 13349 | 3112 | 2747 | 2471 | 2231 | 2055 |
-| Barcode02 | 2820 | 179 | 158 | 145 | 134 | 130 |
-| Barcode03 | 16771 | 3418 | 2860 | 2436 | 2053 | 1723 |
-| Barcode04 | 7933 | 1286 | 1110 | 991 | 885 | 825 |
-| Barcode05 | 16331 | 4590 | 4080 | 3574 | 3183 | 2811 |
-| Barcode06 | 5133 | 1085 | 986 | 931 | 884 | 851 |
-| Barcode07 | 4232 | 587 | 523 | 476 | 436 | 426 |
-| Barcode08 | 4129 | 1101 | 1049 | 1015 | 988 | 976 |
-| Barcode09 | 906 | 485 | 481 | 470 | 467 | 456 |
+| Barcode01 | 14061 | 3311 | 2903 | 2606 | 2373 | 2184 |
+| Barcode02 | 3398 | 199 | 171 | 152 | 143 | 134 |
+| Barcode03 | 17706 | 4063 | 3334 | 2781 | 2324 | 1896 |
+| Barcode04 | 8508 | 1414 | 1218 | 1076 | 960 | 889 |
+| Barcode05 | 17327 | 5782 | 4839 | 4120 | 3529 | 3085 |
+| Barcode06 | 5818 | 1213 | 1108 | 1035 | 969 | 916 |
+| Barcode07 | 5385 | 766 | 635 | 558 | 507 | 477 |
+| Barcode08 | 4697 | 1183 | 1111 | 1070 | 1034 | 1004 |
+| Barcode09 | 1067 | 494 | 486 | 478 | 475 | 472 |
 
 ----End of Report----
 
