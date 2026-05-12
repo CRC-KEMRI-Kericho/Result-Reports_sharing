@@ -15,17 +15,17 @@ This approach balances:
 
 ### Top Parameter Combinations per barcode based on the above criteria
 
-| Barcode | Rank | Phred_score_quality_MQ | Max_primer_error | Raw Reads | Reads_retained_after_Quality_filtering | Reads_assigned_to_UMIs | UMI_percent_of_retained_reads |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Barcode01 | 1 | 14 | 0 | 251757 | 165143 | 151067 | 91.48 |
-| Barcode02 | 2 | 11 | 1 | 35320 | 18141 | 15731 | 86.72 |
-| Barcode03 | 3 | 10 | 4 | 182763 | 95965 | 76130 | 79.33 |
-| Barcode04 | 1 | 14 | 0 | 155571 | 105033 | 94246 | 89.73 |
-| Barcode05 | 3 | 9 | 3 | 252654 | 152802 | 118478 | 77.54 |
-| Barcode06 | 1 | 13 | 0 | 441773 | 321313 | 291637 | 90.76 |
-| Barcode07 | 3 | 10 | 2 | 97921 | 63886 | 55442 | 86.78 |
-| Barcode08 | 1 | 14 | 0 | 511993 | 356964 | 323660 | 90.67 |
-| Barcode09 | 3 | 13 | 3 | 99123 | 45577 | 40682 | 89.26 |
+| Barcode | Phred_score_quality_MQ | Max_primer_error | Raw Reads | Reads_retained_after_Quality_filtering | Reads_assigned_to_UMIs | UMI_percent_of_retained_reads |
+|---|---:|---:|---:|---:|---:|---:|
+| Barcode01 | 14 | 0 | 251757 | 165143 | 151067 | 91.48 |
+| Barcode02 | 11 | 1 | 35320 | 18141 | 15731 | 86.72 |
+| Barcode03 | 10 | 4 | 182763 | 95965 | 76130 | 79.33 |
+| Barcode04 | 14 | 0 | 155571 | 105033 | 94246 | 89.73 |
+| Barcode05 | 9 | 3 | 252654 | 152802 | 118478 | 77.54 |
+| Barcode06 | 13 | 0 | 441773 | 321313 | 291637 | 90.76 |
+| Barcode07 | 10 | 2 | 97921 | 63886 | 55442 | 86.78 |
+| Barcode08 | 14 | 0 | 511993 | 356964 | 323660 | 90.67 |
+| Barcode09 | 13 | 3 | 99123 | 45577 | 40682 | 89.26 |
 
 ---
 
