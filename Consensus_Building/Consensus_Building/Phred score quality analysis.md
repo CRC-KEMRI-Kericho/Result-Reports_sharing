@@ -22,8 +22,6 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 18
 
-## Reads assignments for the phred scores 18
-
 | Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 18 | 1 | 144507 | 133850 | 92.63 |
