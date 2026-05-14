@@ -10,7 +10,7 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 |:---:|:---:|:---:|
 | Minimum Q score | Lowest observed quality score | Q1 |
 | Maximum Q score | Highest observed quality score | Q35 |
-| Mean Q score | Weighted mean quality score | 18.33 |
+| Mean Q score | Mean quality score | 18.33 |
 | Median Q score | Middle observed quality score | Q19 |
 | Mode Q score | Most frequent quality score | Q24 |
 
