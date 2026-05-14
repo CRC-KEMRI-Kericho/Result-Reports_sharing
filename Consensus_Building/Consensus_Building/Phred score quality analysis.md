@@ -92,7 +92,7 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 | Barcode09 | 21 | 1 | 14253 | 13235 | 92.86 |
 
 
-Other primer errors, including 0,2,3 and 4, can be accessed using the links below.
+Other primer errors, including 1,2,3 and 4, can be accessed using the links below.
 
 #### Phred score 17
 
