@@ -1,0 +1,10 @@
+Barcode,Minimum_Phred_Quality,Max_Primer_Error,Reads_Retained_After_Filtering,Reads_Assigned_to_UMIs,Percent_Reads_Assigned_to_UMIs
+Barcode01,20,2,116784,107878,92.37
+Barcode02,20,2,6999,6397,91.40
+Barcode03,20,2,10721,7040,65.67
+Barcode04,20,2,56496,51866,91.80
+Barcode05,20,2,14418,6806,47.20
+Barcode06,20,2,166638,155784,93.49
+Barcode07,20,2,24735,22503,90.98
+Barcode08,20,2,186754,173343,92.82
+Barcode09,20,2,23420,21603,92.24
