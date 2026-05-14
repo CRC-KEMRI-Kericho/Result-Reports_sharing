@@ -4,10 +4,19 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 <img width="1218" height="672" alt="image" src="https://github.com/user-attachments/assets/38da39ac-59f4-4eef-8ec3-8d247b2070eb" />
 
+# Summary statistics
+
+| Statistic | Description | Value |
+|:---:|:---:|:---:|
+| Minimum Q score | Lowest observed quality score | Q1 |
+| Maximum Q score | Highest observed quality score | Q35 |
+| Mean Q score | Mean quality score | 18.33 |
+| Mode Q score | Most frequent quality score | Q24 |
+
 ## Reads assignments for the phred scores 17
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
-|:---|:---:|:---:|---:|---:|---:|
+| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 17 | 1 | 152643 | 139061 | 91.10 |
 | Barcode02 | 17 | 1 | 12810 | 11481 | 89.63 |
 | Barcode03 | 17 | 1 | 27751 | 19914 | 71.76 |
@@ -18,12 +27,12 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 | Barcode08 | 17 | 1 | 318609 | 290110 | 91.06 |
 | Barcode09 | 17 | 1 | 39851 | 36076 | 90.53 |
 
-
+---
 
 ## Reads assignments for the phred scores 18
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
-|:---|:---:|:---:|---:|---:|---:|
+| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 18 | 1 | 144507 | 132175 | 91.47 |
 | Barcode02 | 18 | 1 | 11324 | 10207 | 90.14 |
 | Barcode03 | 18 | 1 | 21533 | 14926 | 69.32 |
@@ -38,8 +47,8 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 19
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
-|:---|:---:|:---:|---:|---:|---:|
+| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 19 | 1 | 133094 | 122184 | 91.80 |
 | Barcode02 | 19 | 1 | 9407 | 8516 | 90.53 |
 | Barcode03 | 19 | 1 | 15902 | 10641 | 66.92 |
@@ -54,8 +63,8 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 20
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
-|:---|:---:|:---:|---:|---:|---:|
+| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 20 | 1 | 116784 | 107770 | 92.28 |
 | Barcode02 | 20 | 1 | 6999 | 6390 | 91.30 |
 | Barcode03 | 20 | 1 | 10721 | 6953 | 64.85 |
@@ -70,8 +79,8 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 21
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
-|:---|:---:|:---:|---:|---:|---:|
+| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 21 | 1 | 94916 | 88108 | 92.83 |
 | Barcode02 | 21 | 1 | 4195 | 3846 | 91.68 |
 | Barcode03 | 21 | 1 | 5893 | 3639 | 61.75 |
@@ -81,5 +90,9 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 | Barcode07 | 21 | 1 | 14739 | 13470 | 91.39 |
 | Barcode08 | 21 | 1 | 115073 | 107544 | 93.46 |
 | Barcode09 | 21 | 1 | 14253 | 13235 | 92.86 |
+
+
+Other primer errors, including 0,2,3 and 4, can be accessed using the links below.
+
 
 ---End of Report---
