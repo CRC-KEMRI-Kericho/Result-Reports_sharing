@@ -96,8 +96,6 @@ Other primer errors, including 1,2,3 and 4, can be accessed using the links belo
 
 #### Phred score 17
 
-[Phred score 17 Max Primer Error 0](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ17_SP0_MAXERR0_high_level_extracts.csv)
-
 [Phred score 17 Max Primer Error 1](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ17_SP0_MAXERR1_high_level_extracts.csv)
 
 [Phred score 17 Max Primer Error 2](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ17_SP0_MAXERR2_high_level_extracts.csv)
@@ -106,5 +104,52 @@ Other primer errors, including 1,2,3 and 4, can be accessed using the links belo
 
 [Phred score 17 Max Primer Error 4](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ17_SP0_MAXERR4_high_level_extracts.csv)
 
+---
+
+#### Phred score 18
+
+[Phred score 18 Max Primer Error 1](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ18_SP0_MAXERR1_high_level_extracts.csv)
+
+[Phred score 18 Max Primer Error 2](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ18_SP0_MAXERR2_high_level_extracts.csv)
+
+[Phred score 18 Max Primer Error 3](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ18_SP0_MAXERR3_high_level_extracts.csv)
+
+[Phred score 18 Max Primer Error 4](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ18_SP0_MAXERR4_high_level_extracts.csv)
+
+---
+
+#### Phred score 19
+
+[Phred score 19 Max Primer Error 1](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ19_SP0_MAXERR1_high_level_extracts.csv)
+
+[Phred score 19 Max Primer Error 2](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ19_SP0_MAXERR2_high_level_extracts.csv)
+
+[Phred score 19 Max Primer Error 3](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ19_SP0_MAXERR3_high_level_extracts.csv)
+
+[Phred score 19 Max Primer Error 4](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ19_SP0_MAXERR4_high_level_extracts.csv)
+
+---
+
+#### Phred score 20
+
+[Phred score 20 Max Primer Error 1](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ20_SP0_MAXERR1_high_level_extracts.csv)
+
+[Phred score 20 Max Primer Error 2](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ20_SP0_MAXERR2_high_level_extracts.csv)
+
+[Phred score 20 Max Primer Error 3](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ20_SP0_MAXERR3_high_level_extracts.csv)
+
+[Phred score 20 Max Primer Error 4](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ20_SP0_MAXERR4_high_level_extracts.csv)
+
+---
+
+#### Phred score 21
+
+[Phred score 21 Max Primer Error 1](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ21_SP0_MAXERR1_high_level_extracts.csv)
+
+[Phred score 21 Max Primer Error 2](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ21_SP0_MAXERR2_high_level_extracts.csv)
+
+[Phred score 21 Max Primer Error 3](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ21_SP0_MAXERR3_high_level_extracts.csv)
+
+[Phred score 21 Max Primer Error 4](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/High_level_summarries/MQ21_SP0_MAXERR4_high_level_extracts.csv)
 
 ---End of Report---
