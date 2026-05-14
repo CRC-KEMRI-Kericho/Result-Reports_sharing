@@ -118,10 +118,11 @@ Rounded to two decimal places:
 # Summary statistics
 
 | Statistic | Description | Value |
-|---|---|---:|
+|:---:|:---:|:---:|
 | Minimum Q score | Lowest observed quality score | Q1 |
 | Maximum Q score | Highest observed quality score | Q35 |
 | Mean Q score | Weighted mean quality score | 18.33 |
+| Median Q score | Middle observed quality score | Q19 |
 | Mode Q score | Most frequent quality score | Q24 |
 
 ---
