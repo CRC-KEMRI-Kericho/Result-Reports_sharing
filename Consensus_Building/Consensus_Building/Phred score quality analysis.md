@@ -16,7 +16,7 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 17
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+| Barcode | Phred_score_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 17 | 1 | 152643 | 139061 | 91.10 |
 | Barcode02 | 17 | 1 | 12810 | 11481 | 89.63 |
@@ -32,7 +32,7 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 18
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+| Barcode | Phred_score_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 18 | 1 | 144507 | 132175 | 91.47 |
 | Barcode02 | 18 | 1 | 11324 | 10207 | 90.14 |
@@ -48,7 +48,7 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 19
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+| Barcode | Phred_score_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 19 | 1 | 133094 | 122184 | 91.80 |
 | Barcode02 | 19 | 1 | 9407 | 8516 | 90.53 |
@@ -64,7 +64,7 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 20
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+| Barcode | Phred_score_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 20 | 1 | 116784 | 107770 | 92.28 |
 | Barcode02 | 20 | 1 | 6999 | 6390 | 91.30 |
@@ -80,7 +80,7 @@ The phred score qualities averaged between 17 and 20 across the barcodes; the ov
 
 ## Reads assignments for the phred scores 21
 
-| Barcode | Minimum_Phred_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
+| Barcode | Phred_score_Quality | Max_Primer_Error | Reads_Retained_After_Quality_Filtering | Reads_Assigned_to_UMIs | Percent_Reads_Assigned_to_UMIs |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Barcode01 | 21 | 1 | 94916 | 88108 | 92.83 |
 | Barcode02 | 21 | 1 | 4195 | 3846 | 91.68 |
