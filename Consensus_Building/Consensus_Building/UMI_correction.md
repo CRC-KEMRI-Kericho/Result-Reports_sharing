@@ -46,6 +46,7 @@ UMIs are processed from highest to lowest abundance so that the largest UMI fami
 The algorithm first evaluates `AACCGGTT` because it has the highest read count. Lower-abundance UMIs are then tested against it using Hamming distance and the abundance rule.
 
 ---
+## 2. Hamming distance
 
 The algorithm compares UMI sequences using Hamming distance, which counts the number of nucleotide differences between two UMIs of equal length.
 
