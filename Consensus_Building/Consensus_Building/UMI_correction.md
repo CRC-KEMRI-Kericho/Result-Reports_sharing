@@ -58,20 +58,6 @@ dist ≤ MAX_DISTANCE
 
 With `MAX_DISTANCE = 1`, only UMIs differing by one nucleotide or fewer can proceed to abundance-rule evaluation.
 
-In our example UMIs, the following parent-child pairs pass this criterion:
-
-## 2. Hamming distance
-
-The algorithm compares UMI sequences using Hamming distance, which counts the number of nucleotide differences between two UMIs of equal length.
-
-A candidate child UMI is only considered for correction if:
-
-```text
-dist ≤ MAX_DISTANCE
-```
-
-With `MAX_DISTANCE = 1`, only UMIs differing by one nucleotide or fewer can proceed to abundance-rule evaluation.
-
 ### Parent-child pairs that pass this criterion
 
 | Parent UMI | Child UMI | Hamming distance (base pair mismatch) | Result |
