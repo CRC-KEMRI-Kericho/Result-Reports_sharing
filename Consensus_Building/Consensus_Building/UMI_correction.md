@@ -1,6 +1,6 @@
 # UMI CORRECTION
 
-The following example UMI families will be used throughout the correction process.
+Example of UMI families that we shall use throughout the correction process.
 
 | UMI | Read count |
 |---|---:|
@@ -18,11 +18,13 @@ The following example UMI families will be used throughout the correction proces
 Assume:
 
 ```text
-MAX_DISTANCE = 1
-percentage = 50%
+MAX_DISTANCE = 1  # Number of mismatches you allow
+percentage = 50% # Abundance of child UMI
 ```
 
 ---
+
+The correction criteria implemented is adapted from (UMICollapse tool)[https://github.com/Daniel-Liu-c0deb0t/UMICollapse]
 
 ## 1. Highest-abundance-first processing
 
