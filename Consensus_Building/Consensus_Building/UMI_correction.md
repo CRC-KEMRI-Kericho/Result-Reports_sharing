@@ -1,0 +1,146 @@
+# UMI CORRECTION
+
+The following example UMI families will be used throughout the correction process.
+
+| UMI | Read count |
+|---|---:|
+| AACCGGTT | 120 |
+| AACCGGTA | 80 |
+| AACCGGTC | 75 |
+| AACCGATT | 64 |
+| AACCGGAT | 24 |
+| AACCGCTA | 8 |
+| AACCGATA | 5 |
+| TCCCGGTT | 4 |
+| AACCTGTT | 3 |
+| GGGCGGTT | 2 |
+
+Assume:
+
+```text
+MAX_DISTANCE = 1
+percentage = 50%
+```
+
+---
+
+## 1. Highest-abundance-first processing
+
+UMIs are processed from highest to lowest abundance so that the largest UMI families are evaluated first as candidate parent UMIs.
+
+| Processing order | UMI | Read count |
+|---|---|---:|
+| 1 | AACCGGTT | 120 |
+| 2 | AACCGGTA | 80 |
+| 3 | AACCGGTC | 75 |
+| 4 | AACCGATT | 64 |
+| 5 | AACCGGAT | 24 |
+| 6 | AACCGCTA | 8 |
+| 7 | AACCGATA | 5 |
+| 8 | TCCCGGTT | 4 |
+| 9 | AACCTGTT | 3 |
+| 10 | GGGCGGTT | 2 |
+
+The algorithm first evaluates `AACCGGTT` because it has the highest read count. Lower-abundance UMIs are then tested against it using Hamming distance and the abundance rule.
+
+---
+
+## 2. Hamming distance
+
+The algorithm compares UMI sequences using Hamming distance, which counts the number of nucleotide differences between two UMIs of equal length.
+
+A candidate child UMI is only considered for correction if:
+
+```text
+dist ≤ MAX_DISTANCE
+```
+
+With `MAX_DISTANCE = 1`, only UMIs differing by one nucleotide or fewer can proceed to abundance-rule evaluation.
+
+---
+
+## 3. Abundance rule
+
+A lower-abundance child UMI is only merged into a higher-abundance parent UMI if its abundance is sufficiently lower than the parent abundance.
+
+The directional abundance rule is:
+
+```text
+child count ≤ 50% × (parent count + 1)
+```
+
+For parent `AACCGGTT` with 120 reads:
+
+```text
+maximum allowed child count = 50% × (120 + 1) = 60.5
+```
+
+Therefore, a child UMI with 60 reads or fewer can pass the abundance rule, while a child UMI above 60.5 reads fails.
+
+---
+
+### Correction decision table
+
+This table shows how all 10 UMIs behave during correction.
+
+| Parent UMI tested | Child UMI | Parent count | Child count | Hamming distance | Abundance threshold | Decision | Reason |
+|---|---|---:|---:|---:|---:|---|---|
+| AACCGGTT | AACCGGTT | 120 | 120 | 0 | NA | Parent | Highest-abundance UMI retained as parent |
+| AACCGGTT | AACCGGTA | 120 | 80 | 1 | 60.5 | Fail | Distance passes, but abundance fails because 80 > 60.5 |
+| AACCGGTT | AACCGGTC | 120 | 75 | 1 | 60.5 | Fail | Distance passes, but abundance fails because 75 > 60.5 |
+| AACCGGTT | AACCGATT | 120 | 64 | 2 | 60.5 | Fail | Distance fails because 2 > 1 |
+| AACCGGTT | AACCGGAT | 120 | 24 | 1 | 60.5 | Pass | Distance and abundance criteria both pass |
+| AACCGGTT | AACCGCTA | 120 | 8 | 2 | 60.5 | Fail | Distance fails because 2 > 1 |
+| AACCGGTT | AACCGATA | 120 | 5 | 2 | 60.5 | Fail | Distance fails because 2 > 1 |
+| AACCGGTT | TCCCGGTT | 120 | 4 | 1 | 60.5 | Pass | Distance and abundance criteria both pass |
+| AACCGGTT | AACCTGTT | 120 | 3 | 1 | 60.5 | Pass | Distance and abundance criteria both pass |
+| AACCGGTT | GGGCGGTT | 120 | 2 | 3 | 60.5 | Fail | Distance fails because 3 > 1 |
+
+Important examples of UMIs with `MAX_DISTANCE = 1` that still fail merging:
+
+| Parent UMI | Child UMI | Hamming distance | Child count | Threshold | Decision | Reason |
+|---|---|---:|---:|---:|---|---|
+| AACCGGTT | AACCGGTA | 1 | 80 | 60.5 | Fail | One-base mismatch passes, but abundance is too high |
+| AACCGGTT | AACCGGTC | 1 | 75 | 60.5 | Fail | One-base mismatch passes, but abundance is too high |
+
+This shows that a one-base UMI difference alone is not sufficient for merging. The abundance rule must also pass.
+
+---
+
+## 4. Non-transitive merging
+
+Once a child UMI has been merged into a parent UMI, it is marked as assigned and cannot later become a parent itself.
+
+This prevents chain-merging effects such as:
+
+```text
+A → B → C
+```
+
+For example:
+
+| UMI | Read count |
+|---|---:|
+| AACCGGTT | 120 |
+| AACCGGTA | 80 |
+| AACCGATA | 5 |
+
+`AACCGGTA` differs from `AACCGGTT` by one nucleotide, but it fails merging because its read count is too high:
+
+```text
+80 > 60.5
+```
+
+Therefore, `AACCGGTA` remains an independent parent UMI.
+
+Later, `AACCGATA` can be evaluated against `AACCGGTA`. It differs by one nucleotide and passes the abundance rule:
+
+```text
+maximum allowed child count = 50% × (80 + 1) = 40.5
+
+5 ≤ 40.5
+```
+
+So `AACCGATA` can be merged into `AACCGGTA`.
+
+After `AACCGATA` is merged, it cannot act as a parent for another UMI. This prevents sequential chain merging and keeps the correction conservative.
