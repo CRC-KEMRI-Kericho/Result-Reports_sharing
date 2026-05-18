@@ -60,22 +60,40 @@ With `MAX_DISTANCE = 1`, only UMIs differing by one nucleotide or fewer can proc
 
 In our example UMIs, the following parent-child pairs pass this criterion:
 
+## 2. Hamming distance
+
+The algorithm compares UMI sequences using Hamming distance, which counts the number of nucleotide differences between two UMIs of equal length.
+
+A candidate child UMI is only considered for correction if:
+
+```text
+dist ≤ MAX_DISTANCE
+```
+
+With `MAX_DISTANCE = 1`, only UMIs differing by one nucleotide or fewer can proceed to abundance-rule evaluation.
+
+### Parent-child pairs that pass this criterion
+
 | Parent UMI | Child UMI | Hamming distance (base pair mismatch) | Result |
 |---|---|---:|---|
 | AACCGGTT | AACCGGTA | 1 | Pass |
 | AACCGGTT | AACCGGTC | 1 | Pass |
+| AACCGGTT | AACCGATT | 1 | Pass |
 | AACCGGTT | AACCGGAT | 1 | Pass |
-| AACCGGTT | TCCCGGTT | 1 | Pass |
 | AACCGGTT | AACCTGTT | 1 | Pass |
+| AACCGGTA | AACCGGTC | 1 | Pass |
+| AACCGGTA | AACCGCTA | 1 | Pass |
 | AACCGGTA | AACCGATA | 1 | Pass |
+| AACCGATT | AACCGATA | 1 | Pass |
+| AACCGCTA | AACCGATA | 1 | Pass |
 
-The following parent-child pairs fail this criterion:
+### Parent-child pairs that fail this criterion
 
 | Parent UMI | Child UMI | Hamming distance (base pair mismatch) | Result |
 |---|---|---:|---|
-| AACCGGTT | AACCGATT | 2 | Fail |
 | AACCGGTT | AACCGCTA | 2 | Fail |
 | AACCGGTT | AACCGATA | 2 | Fail |
+| AACCGGTT | TCCCGGTT | 2 | Fail |
 | AACCGGTT | GGGCGGTT | 3 | Fail |
 
 ---
