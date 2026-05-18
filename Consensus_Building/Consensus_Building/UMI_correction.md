@@ -15,16 +15,16 @@ Example of UMI families that we shall use throughout the correction process.
 | AACCTGTT | 3 |
 | GGGCGGTT | 2 |
 
-Assume:
+Parameters to consider:
 
 ```text
 MAX_DISTANCE = 1  # Number of mismatches you allow
-percentage = 50% # Abundance of child UMI
+percentage = 50% # Maximum allowed child UMI abundance relative to the parent UMI
 ```
 
 ---
 
-The correction criteria implemented is adapted from [UMICollapse tool](https://github.com/Daniel-Liu-c0deb0t/UMICollapse)
+The correction criteria implemented here is adapted from [UMICollapse tool](https://github.com/Daniel-Liu-c0deb0t/UMICollapse)
 
 ## 1. Highest-abundance-first processing
 
@@ -146,3 +146,19 @@ maximum allowed child count = 50% × (80 + 1) = 40.5
 So `AACCGATA` can be merged into `AACCGGTA`.
 
 After `AACCGATA` is merged, it cannot act as a parent for another UMI. This prevents sequential chain merging and keeps the correction conservative.
+
+---
+## 5. Final correction results
+
+The table below summarizes the final correction outcome after applying all correction criteria.
+
+| Parent UMI | Parent count | Child UMIs | Child UMI counts | Corrected to | Corrected count | Hamming distance (base pair mismatch) | Abundance threshold | Final status | Reason |
+|---|---:|---|---|---|---:|---|---|---|---|
+| AACCGGTT | 120 | AACCGGAT, TCCCGGTT, AACCTGTT | 24, 4, 3 | AACCGGTT | 151 | 1, 1, 1 | 60.5 | Corrected | Passed base pair mismatch and abundance criteria |
+| AACCGGTA | 80 | AACCGATA | 5 | AACCGGTA | 85 | 1 | 40.5 | Corrected | Passed base pair mismatch and abundance criteria |
+| AACCGGTC | 75 | None | NA | AACCGGTC | 75 | 1 | 60.5 | Retained | Base pair mismatch passes, but abundance threshold fails |
+| AACCGATT | 64 | None | NA | AACCGATT | 64 | 2 | 60.5 | Retained | Base pair mismatch exceeds MAX_DISTANCE |
+| AACCGCTA | 8 | None | NA | AACCGCTA | 8 | 2 | 60.5 | Retained | Base pair mismatch exceeds MAX_DISTANCE |
+| GGGCGGTT | 2 | None | NA | GGGCGGTT | 2 | 3 | 60.5 | Retained | Base pair mismatch exceeds MAX_DISTANCE |
+
+
