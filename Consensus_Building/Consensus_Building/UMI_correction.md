@@ -24,7 +24,7 @@ percentage = 50% # Abundance of child UMI
 
 ---
 
-The correction criteria implemented is adapted from (UMICollapse tool)[https://github.com/Daniel-Liu-c0deb0t/UMICollapse]
+The correction criteria implemented is adapted from [UMICollapse tool](https://github.com/Daniel-Liu-c0deb0t/UMICollapse)
 
 ## 1. Highest-abundance-first processing
 
