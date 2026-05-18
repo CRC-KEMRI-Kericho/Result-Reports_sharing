@@ -47,7 +47,7 @@ The algorithm first evaluates `AACCGGTT` because it has the highest read count. 
 
 ---
 
-## 2. Hamming distance
+## 2. Hamming distance (Base pair mismatches)
 
 The algorithm compares UMI sequences using Hamming distance, which counts the number of nucleotide differences between two UMIs of equal length.
 
