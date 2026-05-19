@@ -33,64 +33,63 @@ After UMI correction by allowing a single base-pair mismatch, low-abundance fami
 | Barcode08 | 265444 | 3750 | 1652 | 1499 | 1248 | 1121 | 1054 | 1012 | 983 | 967 | 951 | 941 | 725 |
 | Barcode09 | 32992 | 848 | 299 | 503 | 494 | 487 | 481 | 477 | 467 | 460 | 449 | 441 | 266 |
 
-For detailed information on family composition, check the CSVs below. They are a bit large and may not open directly in GitHub, but you can download them and open them using Excel.
-
 -->
 
-## Barcode01
+For detailed information on family composition, check the CSVs below. They are a bit large and may not open directly in GitHub, but you can download them and open them using Excel.
 
-[Barcode01 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode01.umi_groups_before_correction.csv)
+[Barcode01 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode01.umi_groups_before_correction.csv)
 
+<!--
 [Barcode01 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode01.umi_groups_corrected.csv)
+-->
 
-## Barcode02
+[Barcode02 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode02.umi_groups_before_correction.csv)
 
-[Barcode02 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode02.umi_groups_before_correction.csv)
-
+<!--
 [Barcode02 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode02.umi_groups_corrected.csv)
+-->
 
-## Barcode03
+[Barcode03 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode03.umi_groups_before_correction.csv)
 
-[Barcode03 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode03.umi_groups_before_correction.csv)
-
+<!--
 [Barcode03 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode03.umi_groups_corrected.csv)
+-->
 
-## Barcode04
+[Barcode04 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode04.umi_groups_before_correction.csv)
 
-[Barcode04 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode04.umi_groups_before_correction.csv)
-
+<!--
 [Barcode04 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode04.umi_groups_corrected.csv)
+-->
 
-## Barcode05
+[Barcode05 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode05.umi_groups_before_correction.csv)
 
-[Barcode05 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode05.umi_groups_before_correction.csv)
-
+<!--
 [Barcode05 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode05.umi_groups_corrected.csv)
+-->
 
-## Barcode06
+[Barcode06 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode06.umi_groups_before_correction.csv)
 
-[Barcode06 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode06.umi_groups_before_correction.csv)
-
+<!--
 [Barcode06 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode06.umi_groups_corrected.csv)
+-->
 
-## Barcode07
+[Barcode07 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode07.umi_groups_before_correction.csv)
 
-[Barcode07 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode07.umi_groups_before_correction.csv)
-
+<!--
 [Barcode07 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode07.umi_groups_corrected.csv)
+-->
 
-## Barcode08
+[Barcode08 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode08.umi_groups_before_correction.csv)
 
-[Barcode08 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode08.umi_groups_before_correction.csv)
-
+<!--
 [Barcode08 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode08.umi_groups_corrected.csv)
+-->
 
-## Barcode09
+[Barcode09 UMI families](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode09.umi_groups_before_correction.csv)
 
-[Barcode09 UMI families before correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode09.umi_groups_before_correction.csv)
-
+<!--
 [Barcode09 UMI families after correction](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/umi_famillies_summarries_csv/Barcode09.umi_groups_corrected.csv)
-
+-->
 ---End of Report---
 
 
