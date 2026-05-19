@@ -2,20 +2,22 @@
 
 UMI families were distributed as shown in the table below:
 
-| Barcode | Total_reads_with_umis | Total_umi_families | singleton_families | family_size_>2 | family_size_>3 | family_size_>4 | family_size_>5 | family_size_>6 | family_size_>7 | family_size_>8 | family_size_>9 | family_size_>10 | Largest_family_size |
+| Barcode | Total_reads_with_umis | Total_umi_families | singleton_families | family_size_>=2 | family_size_>=3 | family_size_>=4 | family_size_>=5 | family_size_>=6 | family_size_>=7 | family_size_>=8 | family_size_>=9 | family_size_>=10 | largest_family_size |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Barcode01 | 132175 | 28720 | 20540 | 4217 | 3094 | 2553 | 2216 | 1990 | 1806 | 1655 | 1525 | 1441 | 307 |
-| Barcode02 | 10207 | 2188 | 1823 | 204 | 153 | 136 | 117 | 110 | 101 | 99 | 94 | 90 | 603 |
-| Barcode03 | 14926 | 11332 | 9440 | 507 | 220 | 143 | 111 | 84 | 67 | 48 | 43 | 36 | 44 |
-| Barcode04 | 77654 | 13908 | 10734 | 1708 | 1286 | 1063 | 920 | 833 | 770 | 729 | 683 | 647 | 422 |
-| Barcode05 | 15940 | 7167 | 5563 | 657 | 429 | 350 | 304 | 270 | 238 | 220 | 208 | 190 | 174 |
-| Barcode06 | 236547 | 8831 | 6191 | 1657 | 1280 | 1097 | 996 | 943 | 888 | 852 | 831 | 802 | 837 |
-| Barcode07 | 36483 | 3239 | 2375 | 596 | 497 | 435 | 395 | 366 | 346 | 328 | 312 | 298 | 398 |
-| Barcode08 | 265444 | 7464 | 5021 | 1607 | 1292 | 1149 | 1078 | 1036 | 1008 | 979 | 959 | 950 | 723 |
-| Barcode09 | 32992 | 1184 | 586 | 535 | 515 | 502 | 492 | 484 | 475 | 466 | 456 | 446 | 264 |
+| Barcode01 | 132175 | 28720 | 20540 | 8180 | 4217 | 3094 | 2553 | 2216 | 1990 | 1806 | 1655 | 1525 | 307 |
+| Barcode02 | 10207 | 2188 | 1823 | 365 | 204 | 153 | 136 | 117 | 110 | 101 | 99 | 94 | 603 |
+| Barcode03 | 14926 | 11332 | 9440 | 1892 | 507 | 220 | 143 | 111 | 84 | 67 | 48 | 43 | 44 |
+| Barcode04 | 77654 | 13908 | 10734 | 3174 | 1708 | 1286 | 1063 | 920 | 833 | 770 | 729 | 683 | 422 |
+| Barcode05 | 15940 | 7167 | 5563 | 1604 | 657 | 429 | 350 | 304 | 270 | 238 | 220 | 208 | 174 |
+| Barcode06 | 236547 | 8831 | 6191 | 2640 | 1657 | 1280 | 1097 | 996 | 943 | 888 | 852 | 831 | 837 |
+| Barcode07 | 36483 | 3239 | 2375 | 864 | 596 | 497 | 435 | 395 | 366 | 346 | 328 | 312 | 398 |
+| Barcode08 | 265444 | 7464 | 5021 | 2443 | 1607 | 1292 | 1149 | 1078 | 1036 | 1008 | 979 | 959 | 723 |
+| Barcode09 | 32992 | 1184 | 586 | 598 | 535 | 515 | 502 | 492 | 484 | 475 | 466 | 456 | 264 |
 
 
 ---
+
+<!--
 
 After UMI correction by allowing a single base-pair mismatch, low-abundance families, mostly singleton families, were merged into higher-abundance UMI families. Below is the resulting UMI family size distribution after correction:
 
@@ -31,7 +33,9 @@ After UMI correction by allowing a single base-pair mismatch, low-abundance fami
 | Barcode08 | 265444 | 3750 | 1652 | 1499 | 1248 | 1121 | 1054 | 1012 | 983 | 967 | 951 | 941 | 725 |
 | Barcode09 | 32992 | 848 | 299 | 503 | 494 | 487 | 481 | 477 | 467 | 460 | 449 | 441 | 266 |
 
-For detailed information on family composition and corrections, check the CSVs below. They are a bit large and may not open directly in GitHub, but you can download them and open them using Excel.
+For detailed information on family composition, check the CSVs below. They are a bit large and may not open directly in GitHub, but you can download them and open them using Excel.
+
+-->
 
 ## Barcode01
 
