@@ -42,7 +42,7 @@ The aligned fasta sequence files can be directly downloaded by clicking the fast
 
 ---
 
-For the rest of the aligned fasta sequences, they can be accessed here:
+The rest of the UMI aligned families, check here:
 
 <a href="https://hjf.box.com/s/tfols3w98nn6q0mhyp0uc9pgf7x5yrmm" target="_blank">UMI Family aligned fasta sequences</a>
 
