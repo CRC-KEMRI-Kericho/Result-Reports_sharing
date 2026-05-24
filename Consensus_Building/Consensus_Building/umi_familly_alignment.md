@@ -6,7 +6,7 @@ Parameters used:
 
 ### **--localpair**
 
-Uses a sensitive alignment strategy, improving alignment accuracy for sequences with local similarities and variable regions.
+Uses a sensitive alignment strategy, improving alignment accuracy.
 
 ### **--maxiterate 500**
 
