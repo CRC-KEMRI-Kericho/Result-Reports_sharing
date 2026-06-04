@@ -60,7 +60,7 @@ The aligned FASTA sequence files can be downloaded directly by clicking the FAST
 
 The rest of the UMI aligned families, check here:
 
-<a href="https://hjf.box.com/s/tfols3w98nn6q0mhyp0uc9pgf7x5yrmm" target="_blank">UMI Family aligned fasta sequences</a>
+<a href="https://https://app.box.com/folder/383952424322?s=tfols3w98nn6q0mhyp0uc9pgf7x5yrmm" target="_blank">UMI Family aligned fasta sequences</a>
 
 ---
 
