@@ -60,16 +60,23 @@ The aligned FASTA sequence files can be downloaded directly by clicking the FAST
 
 ---
 
-The rest of the UMI aligned families can be accessed here:
+## Per Barcode Consensus Sequence Multiple Sequence Alignment
 
-<a href="https://app.box.com/folder/383952424322?s=tfols3w98nn6q0mhyp0uc9pgf7x5yrmm" target="_blank">UMI Family Aligned FASTA Sequences</a>
+This alignment contains all UMI-family consensus sequences generated from each Barcode. 
+
+[Barcode01 Consensus Sequence MSA](Barcode01_all_family_consensus_aligned.fasta)
 
 ---
 
+## Per Barcode Consensus Sequence Mapping to the HXB2 Reference Genome
+
+This interactive report shows the alignment of each Barcode UMI-family consensus sequences against the HIV-1 HXB2 reference genome (accession K03455.1). 
+
+[Barcode01 consensus Mapping Report](Barcode01_HXB2_mapping_report.html)
 
 ## Notes
 
-- The `.html` files provide an interactive browser-based visualization of the multiple sequence alignments.
+- The `.html` files provide an interactive browser-based visualization of the msa and the maps.
 - The aligned fasta files contain the MAFFT-generated multiple sequence alignments for each UMI family.
 
 ---
