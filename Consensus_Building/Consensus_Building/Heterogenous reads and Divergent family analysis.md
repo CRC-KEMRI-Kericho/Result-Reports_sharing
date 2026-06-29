@@ -113,6 +113,9 @@ Barcode01 contains many consensus sequences to display in this report. Download 
 | Barcode05 | GCGGCCTA | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Heterogenous_families/GCGGCCTA_heterogenous.html) | [Informative sites](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Heterogenous_families/GCGGCCTA_snp_columns.csv) |
 
 
+---
+---End of Report---
+---
 
 
 
