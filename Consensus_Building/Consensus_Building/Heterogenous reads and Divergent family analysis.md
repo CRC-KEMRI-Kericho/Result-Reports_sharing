@@ -46,7 +46,9 @@ These quality-control steps improve the reliability of UMI-family consensus gene
 | Barcode03 | [Aligned consensus visualization](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Barcode03_all_family_consensus_aligned.html) | [Consensus mapping](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Barcode03_HXB2_mapping_report.html) |
 | Barcode05 | [Aligned consensus visualization](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Barcode05_all_family_consensus_aligned.html) | [Consensus mapping](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Barcode05_HXB2_mapping_report.html) |
 
-Barcode01 contains many consensus sequences to display in this report. Download the aligned file [Barcode01_aligned_consensus_sequences]() and view it using Jalview or another compatible alignment viewer.
+**Note:**
+
+Barcode01 contains many consensus sequences to display in this report. Download the aligned file [Barcode01_aligned_consensus_sequences](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode01/Barcode01_all_family_consensus_aligned.fasta) and view it using Jalview or another compatible alignment viewer.
 
 ---
 
