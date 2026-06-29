@@ -5,7 +5,7 @@ To improve the accuracy of consensus sequence generation, two additional quality
 1. **Sequence identity filtering using VSEARCH**
 2. **Within-family SNP-based haplotyping**
 
-## 1. Sequence Identity Filtering Using VSEARCH
+### 1. Sequence Identity Filtering Using VSEARCH
 
 Reads within each UMI family were clustered using **VSEARCH** based on nucleotide sequence identity. Three clustering thresholds were evaluated:
 
@@ -15,7 +15,7 @@ Reads within each UMI family were clustered using **VSEARCH** based on nucleotid
 
 Based on these observations, a **98% sequence identity threshold** was selected. Within each UMI family, **all clusters containing at least 10 reads (≥10)** were retained for downstream multiple sequence alignment and consensus generation, while smaller clusters were discarded.
 
-## 2. Within-Family SNP-Based Haplotyping
+### 2. Within-Family SNP-Based Haplotyping
 
 Clusters retained after VSEARCH filtering were screened for within-family sequence heterogeneity using SNP-based haplotyping.
 
