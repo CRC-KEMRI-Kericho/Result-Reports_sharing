@@ -1,0 +1,4 @@
+column_0based,column_1based,valid_bases,gap_count,gap_freq,major_base,major_count,major_freq,minor_base,minor_count,minor_freq,counts
+77,78,10,0,0.0,G,7,0.7,A,3,0.3,A:3;G:7
+4766,4767,10,0,0.0,C,6,0.6,T,4,0.4,C:6;T:4
+4940,4941,10,0,0.0,A,6,0.6,G,4,0.4,A:6;G:4
