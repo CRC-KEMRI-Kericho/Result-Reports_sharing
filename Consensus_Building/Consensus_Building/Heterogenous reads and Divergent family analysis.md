@@ -66,7 +66,6 @@ These quality-control steps improve the reliability of UMI-family consensus gene
 
 | Family | Alignment |
 |---------|-----------|
-| AAAATACC | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AAAATACC.html) |
 | AAATCGGC | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AAATCGGC.html) |
 | AACCCGT | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AACCCGT.html) |
 | AACTACTG | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AACTACTG.html) |
