@@ -40,7 +40,7 @@ These quality-control steps improve the reliability of UMI-family consensus gene
 
 ### Per Barcode Consensus Alignment
 
-| Barcode | Consensus Alignment | Consensus Mapping Against HXB2 |
+| Barcode | Consensus Alignment | Consensus Mapping to HXB2 |
 |---------|----------------------|-------------------------------|
 | Barcode02 | [Aligned consensus visualization](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/Barcode02_all_family_consensus_aligned.html) | [Consensus mapping](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/Barcode02_HXB2_mapping_report.html) |
 | Barcode03 | [Aligned consensus visualization](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Barcode03_all_family_consensus_aligned.html) | [Consensus mapping](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Barcode03_HXB2_mapping_report.html) |
@@ -48,11 +48,11 @@ These quality-control steps improve the reliability of UMI-family consensus gene
 
 **Note:**
 
-Barcode01 contains many consensus sequences to display in this report. Download the aligned file [Barcode01_aligned_consensus_sequences](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode01/Barcode01_all_family_consensus_aligned.fasta) and view it using Jalview or another compatible alignment viewer.
+Barcode01 contains many consensus sequences to display in this report. Download the aligned FASTA file [Barcode01_aligned_consensus_sequences](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode01/Barcode01_all_family_consensus_aligned.fasta) and visualize it using Jalview or another compatible multiple sequence alignment viewer.
 
 ---
 
-# Clean Family Alignments
+## Clean Family Alignments
 
 ## Barcode01
 
@@ -71,7 +71,7 @@ Barcode01 contains many consensus sequences to display in this report. Download 
 | Family | Alignment |
 |---------|-----------|
 | AAATCGGC | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AAATCGGC.html) |
-| AACCCGT | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AACCCGT.html) |
+| AACCCGTT | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AACCCGT.html) |
 | AACTACTG | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AACTACTG.html) |
 | AAGGTCCG | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/AAGGTCCG.html) |
 | ACGGGCGT | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/clean_families/ACGGGCGT.html) |
@@ -103,9 +103,9 @@ Barcode01 contains many consensus sequences to display in this report. Download 
 
 ---
 
-# Heterogeneous Families
+## Heterogeneous Families
 
-| Barcode | Family | Alignment | Informative Sites |
+| Barcode | Family | Alignment | Informative SNPs |
 |---------|--------|-----------|-------------------|
 | Barcode05 | TTCACAAG | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Heterogenous_families/TTCACAAG_heterogenous.html) | [Informative sites](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Heterogenous_families/TTCACAAG_snp_columns.csv) |
 | Barcode03 | GTGAACGC | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Heterogenous_families/GTGAACGC_heterogenous.html) | [Informative sites](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Heterogenous_families/GTGAACGC_cluster1_46_snp_columns.csv) |
