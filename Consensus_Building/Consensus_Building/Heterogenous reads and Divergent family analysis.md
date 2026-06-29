@@ -48,7 +48,7 @@ These quality-control steps improve the reliability of UMI-family consensus gene
 
 **Note:**
 
-Barcode01 contains many consensus sequences to display in this report. Download the aligned file [Barcode01_aligned_consensus_sequences](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/raw/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode01/Barcode01_all_family_consensus_aligned.fasta) and view it using Jalview or another compatible alignment viewer.
+Barcode01 contains many consensus sequences to display in this report. Download the aligned file [Barcode01_aligned_consensus_sequences](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode01/Barcode01_all_family_consensus_aligned.fasta) and view it using Jalview or another compatible alignment viewer.
 
 ---
 
