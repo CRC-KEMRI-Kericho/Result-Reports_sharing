@@ -1,4 +1,4 @@
-# Heterogeneous Read and Divergent UMI Family Analysis
+## Heterogeneous Read and Divergent UMI Family Analysis
 
 To improve the accuracy of consensus sequence generation, two additional quality-control steps were incorporated into the UMI consensus pipeline:
 
