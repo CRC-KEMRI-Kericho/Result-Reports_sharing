@@ -115,6 +115,38 @@ Barcode01 contains many consensus sequences to display in this report. Download 
 | Barcode05 | GCGGCCTA | [Aligned sequences](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Heterogenous_families/GCGGCCTA_heterogenous.html) | [Informative sites](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Heterogenous_families/GCGGCCTA_snp_columns.csv) |
 
 
+## Distribution of Reads per UMI
+
+### Barcode01
+<a href="https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode01/Barcode01_umi_family_size_histogram.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode01/Barcode01_umi_family_size_histogram.png" width="600">
+</a>
+
+### Barcode02
+<a href="https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/Barcode02_umi_family_size_histogram.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode02/Barcode02_umi_family_size_histogram.png" width="600">
+</a>
+
+### Barcode03
+<a href="https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Barcode03_umi_family_size_histogram.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode03/Barcode03_umi_family_size_histogram.png" width="600">
+</a>
+
+### Barcode04
+<a href="https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode04/Barcode04_umi_family_size_histogram.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode04/Barcode04_umi_family_size_histogram.png" width="600">
+</a>
+
+### Barcode05
+<a href="https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Barcode05_umi_family_size_histogram.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode05/Barcode05_umi_family_size_histogram.png" width="600">
+</a>
+
+### Barcode06
+<a href="https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode06/Barcode06_umi_family_size_histogram.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/Divergent_Heterogenous_families_analysis/Barcode06/Barcode06_umi_family_size_histogram.png" width="600">
+</a>
+
 ---
 ---End of Report---
 ---
