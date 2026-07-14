@@ -1,0 +1,2 @@
+Sample	Sequali
+Sequali	0.12.0

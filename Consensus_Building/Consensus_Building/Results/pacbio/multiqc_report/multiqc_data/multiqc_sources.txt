@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2001	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2001/m21094_260505_160002.hifi_reads.bc2001.fastq.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2002	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2002/m21094_260505_160002.hifi_reads.bc2002.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2003	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2003/m21094_260505_160002.hifi_reads.bc2003.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2004	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2004/m21094_260505_160002.hifi_reads.bc2004.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2005	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2005/m21094_260505_160002.hifi_reads.bc2005.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2006	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2006/m21094_260505_160002.hifi_reads.bc2006.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2007	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2007/m21094_260505_160002.hifi_reads.bc2007.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2008	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2008/m21094_260505_160002.hifi_reads.bc2008.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2009	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2009/m21094_260505_160002.hifi_reads.bc2009.fastq.gz.json
+Sequali	all_sections	m21094_260505_160002.hifi_reads.bc2010	/home/fkebaso/jalview/alignments/Data/pacbio/VEGA5/sequali_reports/m21094_260505_160002.hifi_reads.bc2010/m21094_260505_160002.hifi_reads.bc2010.fastq.json
