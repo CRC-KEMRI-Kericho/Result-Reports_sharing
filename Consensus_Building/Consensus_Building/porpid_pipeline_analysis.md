@@ -90,3 +90,8 @@ Latest update 3 weeks ago (technical update)
     Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459.svg)
 
 
+## To Discuss:
+
+- Main changes effected on the customized pipeline
+
+
