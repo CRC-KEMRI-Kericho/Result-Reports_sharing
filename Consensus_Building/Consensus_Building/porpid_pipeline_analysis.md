@@ -46,8 +46,47 @@ Latest update 3 weeks ago (technical update)
 
 #### VEGA5_bc2001
 
-- [UMI Extraction and Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/VEGA5_bc2001-index.html)
+-   [UMI Extraction and
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/VEGA5_bc2001-index.html)
+-   [Post-processing
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/AF_771-report.html)
+-   [Whole Sample Consensus
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/AF_771.svg)
 
-- [Whole Sample Consensus Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/AF_771.svg)
+#### VEGA5_bc2002
 
-- [Post-processing Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/AF_771-report.html)
+-   [UMI Extraction and
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/VEGA5_bc2002-index.html)
+-   [Post-processing
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885-report.html)
+-   [Whole Sample Consensus
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885.svg)
+
+#### VEGA5_bc2004
+
+-   [UMI Extraction and
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2004/VEGA5_bc2004-index.html)
+-   [Post-processing
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2004/AF_529-report.html)
+-   [Whole Sample Consensus
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2004/AF_529.svg)
+
+#### VEGA5_bc2005
+
+-   [UMI Extraction and
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2005/VEGA5_bc2005-index.html)
+-   [Post-processing
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2005/AF_961-report.html)
+-   [Whole Sample Consensus
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2005/AF_961.svg)
+
+#### VEGA5_bc2008
+
+-   [UMI Extraction and
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/VEGA5_bc2008-index.html)
+-   [Post-processing
+    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459-report.html)
+-   [Whole Sample Consensus
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459.svg)
+
+
