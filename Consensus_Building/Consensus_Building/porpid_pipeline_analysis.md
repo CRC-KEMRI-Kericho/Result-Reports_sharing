@@ -92,6 +92,15 @@ Latest update 3 weeks ago (technical update)
     Alignment](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459.html)
 - [Distribution of read counts per UMI family](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459_final_umi_read_count_distribution.png)
 
+## umi Summary
+
+| Sample | UMI Families |
+|--------|-------------:|
+| VEGA5_bc2001 | 328 |
+| VEGA5_bc2002 | 636 |
+| VEGA5_bc2004 | 334 |
+| VEGA5_bc2005 | 225 |
+| VEGA5_bc2008 | 401 |
 
 ## To Discuss:
 
