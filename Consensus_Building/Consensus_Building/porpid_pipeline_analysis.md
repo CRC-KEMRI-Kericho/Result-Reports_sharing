@@ -59,7 +59,7 @@ Latest update 3 weeks ago (technical update)
 -   [Post-processing
     Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885-report.html)
 -   [Whole Sample Consensus
-    Alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/edit/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885.svg)
+    Alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/edit/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885.html)
 - [Distribution of read counts per UMI family](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885_final_umi_read_count_distribution.png)
 
 #### VEGA5_bc2004
@@ -69,7 +69,7 @@ Latest update 3 weeks ago (technical update)
 -   [Post-processing
     Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2004/AF_529-report.html)
 -   [Whole Sample Consensus
-    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2004/AF_529.svg)
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2004/AF_529.html)
 - [Distribution of read counts per UMI family](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2004/AF_529_final_umi_read_count_distribution.png)
 
 #### VEGA5_bc2005
@@ -79,7 +79,7 @@ Latest update 3 weeks ago (technical update)
 -   [Post-processing
     Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2005/AF_961-report.html)
 -   [Whole Sample Consensus
-    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2005/AF_961.svg)
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2005/AF_961.html)
 - [Distribution of read counts per UMI family](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2005/AF_961_final_umi_read_count_distribution.png)
 
 #### VEGA5_bc2008
@@ -89,7 +89,7 @@ Latest update 3 weeks ago (technical update)
 -   [Post-processing
     Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459-report.html)
 -   [Whole Sample Consensus
-    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459.svg)
+    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459.html)
 - [Distribution of read counts per UMI family](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2008/AF_459_final_umi_read_count_distribution.png)
 
 
