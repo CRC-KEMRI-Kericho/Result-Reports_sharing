@@ -48,8 +48,9 @@ Latest update 3 weeks ago (technical update)
 -   [Whole Sample Consensus
     Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/AF_771.svg)
     
--   [Distribution of read counts per umi family](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_771_final_umi_read_count_distribution.png)
+- [Distribution of read counts per UMI family](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2001/AF_771_final_umi_read_count_distribution.png)
 
+  
 #### VEGA5_bc2002
 
 -   [UMI Extraction and
