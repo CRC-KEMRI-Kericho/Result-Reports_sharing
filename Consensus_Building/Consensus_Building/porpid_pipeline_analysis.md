@@ -13,21 +13,21 @@ Latest update 3 weeks ago (technical update)
 | **Demultiplexing** | | |
 | `chunk_size` | `100000` | `1000000` |
 | `error_rate` | `0.01` | No change |
-| `min_length` | `2100` | `4500` |
-| `max_length` | `4300` | `5500` |
+| `min_length` | `2100` | `4000` |
+| `max_length` | `4300` | `6000` |
 | `max_reads` | `100000` | `1000000000` *(effectively disables downsampling)* |
 | `verbose` | `"false"` | No change |
 | **PORPID** | | |
 | `fs_thresh` | `1` | `5` |
-| `lda_thresh` | `0.995` | No change |
+| `lda_thresh` | `0.995` | Disabled (0.0) |
 | **Consensus Generation** | | |
 | `agreement_thresh` | `0.7` | No change |
-| `af_thresh` | `0.35` | No change |
+| `af_thresh` | `0.35` | Disabled (0.0)|
 | **Contamination Filtering** | | |
 | `cluster_thresh` | `0.015` | No change |
 | `proportion_thresh` | `0.2` | No change |
 | `dist_thresh` | `0.015` | No change |
-| `contam_toggle` | `"on"` | No change |
+| `contam_toggle` | `"on"` | "false" *Disabled* |
 | **Post-processing** | | |
 | `panel_thresh` | `50` | No change |
 | **Archiving** | | |
