@@ -58,7 +58,7 @@ Latest update 3 weeks ago (technical update)
 -   [Post-processing
     Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885-report.html)
 -   [Whole Sample Consensus
-    Alignment](https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885.svg)
+    Alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/edit/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/VEGA5_bc2002/AF_885.svg)
 
 #### VEGA5_bc2004
 
