@@ -2,7 +2,7 @@
 
 ## Overall Summary
 
-> **Note:** The results we discussed yesterday were generated using a **mean Phred score threshold which was (35.6)**. During our discussion, I stated that the analysis had been performed using the PORPID default Phred score threshold of **20**. I have corrected this, and the results below reflect the analysis performed using the **default Phred score threshold (20)**. The primary difference is an increase in the number of consensus sequences generated.
+> **Note:** The results we discussed yesterday were generated using a **mean Phred score threshold which was (35.6)**. During our discussion, I stated that the analysis had been performed using the PORPID default Phred score threshold of **20**, which was incorrect. I have corrected this, and the results below reflect the analysis performed using the **default Phred score threshold (20)**. The primary difference is an increase in the number of umi families generated (both rejected and final umi families increase).
 
 | Sample | Total Families | Min-Agreement Rejected Families | Single-Position Rejects (*min_agreement* < 0.7) | Multiple position_rejects (*min_agreement* < 0.7) | Rejects Distribution Graph | Final Consensus Sequences |
 |:------:|:--------------:|:-------------------------------------:|:-----------------------------------------------:|:--------------------------:|:-----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
