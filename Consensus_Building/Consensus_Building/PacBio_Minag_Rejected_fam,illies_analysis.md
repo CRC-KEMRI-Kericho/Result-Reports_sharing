@@ -12,6 +12,15 @@
 | **VEGA5_bc2005** | 287 | 19 | 14 | 5|[View Distribution Graph](https://github.com/user-attachments/assets/fa6b0e33-92a7-4d9f-935c-c319784e3960) | 268 |
 | **VEGA5_bc2008** | 481 | 29 | 22 | 7|[View Distribution Graph](https://github.com/user-attachments/assets/53ed87f6-0f57-418f-bfa3-dc472a3c4ed1) | 452 |
 
+
+### Alignment of the Whole-Sample Consensus Sequences
+
+-  **[VEGA5_bc2001 Consensus Sequences](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_771.html)**
+-  **[VEGA5_bc2002 Consensus Sequences](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_885.html)**
+-  **[VEGA5_bc2004 Consensus Sequences](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_529.html)**
+-  **[VEGA5_bc2005 Consensus Sequences](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_961.html)**
+-  **[VEGA5_bc2008 Consensus Sequences](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_459.html)**
+
 ## Summary
 
 - All results shown above were generated using the **PORPID default Phred score threshold of 20**.
