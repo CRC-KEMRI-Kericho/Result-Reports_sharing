@@ -2,7 +2,7 @@
 
 ## Overall Summary
 
-> **Note:** The results we discussed yesterday were generated using a **mean Phred score threshold of 35**. During our discussion, I stated that the analysis had been performed using the PORPID default Phred score threshold of **20**. This has since been corrected, and the results below reflect the analysis performed using the **default Phred score threshold (20)**. The primary difference is a slight increase in the number of consensus sequences generated.
+> **Note:** The results we discussed yesterday were generated using a **mean Phred score threshold of 35**. During our discussion, I stated that the analysis had been performed using the PORPID default Phred score threshold of **20**. This has since been corrected, and the results below reflect the analysis performed using the **default Phred score threshold (20)**. The primary difference is an increase in the number of consensus sequences generated.
 
 | Sample | Total Families | Min-Agreement Rejected Families | Single-Position Rejects (*min_agreement* < 0.7) | multi_position_rejects | Rejects Distribution Graph | Final Consensus Sequences |
 |:------:|:--------------:|:-------------------------------------:|:-----------------------------------------------:|:--------------------------:|:-----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
@@ -15,5 +15,4 @@
 ## Summary
 
 - All results shown above were generated using the **PORPID default Phred score threshold of 20**.
-- The primary effect of using the default threshold was a **slight increase in the number of consensus sequences recovered**, while the minimum-agreement rejection statistics remained largely unchanged.
 - The **Rejects Distribution Graph** links provide the distribution of nucleotide positions with **min_agreement < 0.7** among rejected UMI families for each sample.
