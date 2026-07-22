@@ -14,6 +14,8 @@
 
 ### Single-Position Base Ratios
 
+***Note***: The hyphens (-) show position which had gaps.
+
 - **[VEGA5_bc2001](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_771.single_position_rejects.csv)**
 - **[VEGA5_bc2002](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_885.single_position_rejects.csv)**
 - **[VEGA5_bc2004](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_529.single_position_rejects.csv)**
