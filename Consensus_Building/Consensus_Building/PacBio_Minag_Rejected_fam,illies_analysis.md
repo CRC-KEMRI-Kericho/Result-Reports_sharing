@@ -12,6 +12,15 @@
 | **VEGA5_bc2005** | 287 | 19 | 14 | 5|[View Distribution Graph](https://github.com/user-attachments/assets/fa6b0e33-92a7-4d9f-935c-c319784e3960) | 268 |
 | **VEGA5_bc2008** | 481 | 29 | 22 | 7|[View Distribution Graph](https://github.com/user-attachments/assets/53ed87f6-0f57-418f-bfa3-dc472a3c4ed1) | 452 |
 
+### Single-Position Base Ratios
+
+- **[VEGA5_bc2001](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_771.single_position_rejects.csv)**
+- **[VEGA5_bc2002](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_885.single_position_rejects.csv)**
+- **[VEGA5_bc2004](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_529.single_position_rejects.csv)**
+- **[VEGA5_bc2005](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_961.single_position_rejects.csv)**
+- **[VEGA5_bc2008](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/AF_459.single_position_rejects.csv)**
+
+
 
 ### Alignment of the Whole-Sample Consensus Sequences
 
