@@ -2,9 +2,9 @@
 
 ## Overall Summary
 
-> **Note:** The results we discussed yesterday were generated using a **mean Phred score threshold of 35**. During our discussion, I mistakenly stated that the analysis had been performed using the PORPID default Phred score threshold of **20**. This has since been corrected, and the results below reflect the analysis performed using the **default Phred score threshold (20)**. The primary difference is a slight increase in the number of consensus sequences generated.
+> **Note:** The results we discussed yesterday were generated using a **mean Phred score threshold of 35**. During our discussion, I stated that the analysis had been performed using the PORPID default Phred score threshold of **20**. This has since been corrected, and the results below reflect the analysis performed using the **default Phred score threshold (20)**. The primary difference is a slight increase in the number of consensus sequences generated.
 
-| Sample | Total Families | Total Min-Agreement Rejected Families | Single-Position Rejects (*min_agreement* < 0.7) | multi_position_rejects | Rejects Distribution Graph | Final Consensus Sequences (Total Families − Total Min-Agreement Rejected Families) |
+| Sample | Total Families | Min-Agreement Rejected Families | Single-Position Rejects (*min_agreement* < 0.7) | multi_position_rejects | Rejects Distribution Graph | Final Consensus Sequences |
 |:------:|:--------------:|:-------------------------------------:|:-----------------------------------------------:|:--------------------------:|:-----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
 | **VEGA5_bc2001** | 470 | 61 | 27 | 34| [View Distribution Graph](https://github.com/user-attachments/assets/e3004ffb-9bd7-40f7-942f-d6c0413a3265) | 401 |
 | **VEGA5_bc2002** | 839 | 91 | 41 |  50|[View Distribution Graph](https://github.com/user-attachments/assets/86e3be82-4f48-4c18-80aa-e391a4f5dd96) | 748 |
