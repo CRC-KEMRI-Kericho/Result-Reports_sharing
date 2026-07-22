@@ -6,7 +6,7 @@
 
 | Sample | Total Families | Min-Agreement Rejected Families | Single-Position Rejects (*min_agreement* < 0.7) | Multiple position_rejects (*min_agreement* < 0.7) | Rejects Distribution Graph | Final Consensus Sequences |
 |:------:|:--------------:|:-------------------------------------:|:-----------------------------------------------:|:--------------------------:|:-----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
-| **VEGA5_bc2001** | 470 | 61 | 27 | 34| [View Distribution Graph](https://github.com/user-attachments/assets/e3004ffb-9bd7-40f7-942f-d6c0413a3265) | 409 |
+| **VEGA5_bc2001** | 470 | 61 | 27 | 34| [View Distribution Graph](https://github.com/user-attachments/assets/58bce775-9aeb-4dc2-8ddd-6ed33a3ef5dc) | 409 |
 | **VEGA5_bc2002** | 839 | 91 | 41 |  50|[View Distribution Graph](https://github.com/user-attachments/assets/86e3be82-4f48-4c18-80aa-e391a4f5dd96) | 748 |
 | **VEGA5_bc2004** | 449 | 39 | 26 | 13|[View Distribution Graph](https://github.com/user-attachments/assets/6018fa96-fe81-47f7-bc27-59d6a0c45d9f) | 410 |
 | **VEGA5_bc2005** | 287 | 19 | 14 | 5|[View Distribution Graph](https://github.com/user-attachments/assets/fa6b0e33-92a7-4d9f-935c-c319784e3960) | 268 |
