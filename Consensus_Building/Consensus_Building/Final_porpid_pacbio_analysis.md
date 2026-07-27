@@ -66,10 +66,10 @@
 
 | Sample | UMI Families |
 |--------|-------------:|
-| VEGA5_bc2001 | 328 |
-| VEGA5_bc2002 | 636 |
-| VEGA5_bc2004 | 334 |
-| VEGA5_bc2005 | 225 |
-| VEGA5_bc2008 | 401 |
+| VEGA5_bc2001 | 436 |
+| VEGA5_bc2002 | 789 |
+| VEGA5_bc2004 | 436 |
+| VEGA5_bc2005 | 282 |
+| VEGA5_bc2008 | 474 |
 
 
