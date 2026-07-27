@@ -10,7 +10,7 @@
 |------------|---------|--------------|
 | **Demultiplexing** | | |
 | `chunk_size` | `100000` | `1000000` |
-| `error_rate` | `0.01` | No change |
+| `error_rate` | `0.01` | No change (Q20) |
 | `min_length` | `2100` | `4000` |
 | `max_length` | `4300` | `6000` |
 | `max_reads` | `100000` | `1000000000` *(effectively disables downsampling)* |
