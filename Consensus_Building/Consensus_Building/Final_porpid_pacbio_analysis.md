@@ -123,17 +123,19 @@
 - [Post-processing Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/40512-report.html)
 - [Whole Sample Consensus Alignment](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/40512.html)
 - [FASTA Sequences](https://app.box.com/folder/403535008507)
+
+- 
 ## UMI Summary
 
-  Sample           UMI Families
-  -------------- --------------
-  VEGA5_bc2001              436
-  VEGA5_bc2002              789
-  VEGA5_bc2003              ---
-  VEGA5_bc2004              436
-  VEGA5_bc2005              282
-  VEGA5_bc2006              ---
-  VEGA5_bc2007              ---
-  VEGA5_bc2008              474
-  VEGA5_bc2009              ---
-  VEGA5_bc2010              821
+| Sample | UMI Families |
+|--------|-------------:|
+| VEGA5_bc2001 | 436 |
+| VEGA5_bc2002 | 789 |
+| VEGA5_bc2003 | 1601 |
+| VEGA5_bc2004 | 436 |
+| VEGA5_bc2005 | 282 |
+| VEGA5_bc2006 | 717 |
+| VEGA5_bc2007 | 650 |
+| VEGA5_bc2008 | 474 |
+| VEGA5_bc2009 | 4170 |
+| VEGA5_bc2010 | 821 |
