@@ -119,14 +119,10 @@
 
 #### VEGA5_bc2010
 
--   [UMI Extraction and
-    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/VEGA5_bc2010-index.html)
--   [Post-processing
-    Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/40512-report.html)
--   [Whole Sample Consensus
-    Alignment](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/40512.html)
--   [FASTA Sequences](https://app.box.com/folder/403535008507)
-
+- [UMI Extraction and Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/VEGA5_bc2010-index.html)
+- [Post-processing Analysis](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/40512-report.html)
+- [Whole Sample Consensus Alignment](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/40512.html)
+- [FASTA Sequences](https://app.box.com/folder/403535008507)
 ## UMI Summary
 
   Sample           UMI Families
