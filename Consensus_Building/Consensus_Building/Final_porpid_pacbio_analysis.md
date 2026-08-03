@@ -128,7 +128,7 @@
 ## UMI Summary
 
 | Sample Name | Final UMI Families |
-|--------|-------------:|
+|:-----------:|:------------------:|
 | VEGA5_bc2001 | 436 |
 | VEGA5_bc2002 | 789 |
 | VEGA5_bc2003 | 1601 |
