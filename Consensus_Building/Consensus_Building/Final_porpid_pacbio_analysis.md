@@ -124,7 +124,6 @@
 - [Whole Sample Consensus Alignment](https://htmlpreview.github.io/?https://raw.githubusercontent.com/CRC-KEMRI-Kericho/Result-Reports_sharing/main/Consensus_Building/Consensus_Building/Results/pacbio/postproc/final_report_results/VEGA5_bc2010/40512.html)
 - [FASTA Sequences](https://app.box.com/folder/403535008507)
 
-- 
 ## UMI Summary
 
 | Sample Name | Final UMI Families |
@@ -139,3 +138,24 @@
 | VEGA5_bc2008 | 474 |
 | VEGA5_bc2009 | 4170 |
 | VEGA5_bc2010 | 821 |
+
+---
+
+## LEO Data analysis
+
+## UMI Summary
+
+| Sample Name | Final Consensus Sequences | Min Agreement Rescued | Consensus Alignment |
+|:-----------:|:-------------------------:|:---------------------:|:-------------------:|
+| LEO55_bc1002 | 2 | 1 | [View alignment](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/LEO/LEO55_bc1002.svg) |
+| LEO55_bc1009 | 11 | 1 | [View alignment](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/LEO/LEO55_bc1009.svg) |
+| LEO55_bc1011 | 137 | 8 | [View alignment](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/LEO/LEO55_bc1011.html) |
+| LEO56_LEO57_bc1002 | 59 | 5 | [View alignment](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/LEO/LEO56_LEO57_bc1002.html) |
+| LEO56_LEO57_bc1009 | 4 | 0 | [View alignment](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/LEO/LEO56__LEO57_bc1009.svg) |
+| LEO56_LEO57_bc1011 | 105 | 6 | [View alignment](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/LEO/LEO56_LEO57_bc1011.html) |
+| LEO56_LEO57_bc1016 | 1 | 0 | [View alignment](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/LEO/LEO56__LEO57_bc1016.svg) |
+
+---
+
+---End of Report---
+
