@@ -126,18 +126,18 @@
 
 ## UMI Summary
 
-| Sample Name | Final UMI Families |
-|:-----------:|:------------------:|
-| VEGA5_bc2001 | 436 |
-| VEGA5_bc2002 | 789 |
-| VEGA5_bc2003 | 1601 |
-| VEGA5_bc2004 | 436 |
-| VEGA5_bc2005 | 282 |
-| VEGA5_bc2006 | 717 |
-| VEGA5_bc2007 | 650 |
-| VEGA5_bc2008 | 474 |
-| VEGA5_bc2009 | 4170 |
-| VEGA5_bc2010 | 821 |
+| Sample Name | Final Consensus Sequences | Min Agreement Rescued |
+|:-----------:|:-------------------------:|:---------------------:|
+| VEGA5_bc2001 | 436 | 27 |
+| VEGA5_bc2002 | 789 | 41 |
+| VEGA5_bc2003 | 1601 | 108 |
+| VEGA5_bc2004 | 436 | 26 |
+| VEGA5_bc2005 | 282 | 14 |
+| VEGA5_bc2006 | 717 | 35 |
+| VEGA5_bc2007 | 650 | 35 |
+| VEGA5_bc2008 | 474 | 22 |
+| VEGA5_bc2009 | 4170 | 282 |
+| VEGA5_bc2010 | 821 | 46 |
 
 ---
 
