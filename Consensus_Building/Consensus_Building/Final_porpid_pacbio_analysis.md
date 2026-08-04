@@ -125,9 +125,9 @@
 - [FASTA Sequences](https://app.box.com/folder/403535008507)
 
 - 
-## VEGA UMI Summary
+## UMI Summary
 
-| Sample Name | Final consensus Sequences |
+| Sample Name | Final UMI Families |
 |:-----------:|:------------------:|
 | VEGA5_bc2001 | 436 |
 | VEGA5_bc2002 | 789 |
@@ -139,24 +139,3 @@
 | VEGA5_bc2008 | 474 |
 | VEGA5_bc2009 | 4170 |
 | VEGA5_bc2010 | 821 |
-
-
-## LEO UMI Summary
-
-| Sample Name | Final Consensus Sequences | Min Agreement Rescued | Consensus Alignment |
-|---|---:|---:|---|
-| LEO55_bc1002 |2  | 1 | [View alignment](LEO55_bc1002.svg) |
-| LEO55_bc1009 | 11 | 1 | [View alignment](LEO55_bc1009.svg) |
-| LEO55_bc1011 | 137 | 8 | [View alignment](LEO55_bc1011.html) |
-| LEO56_LEO57_bc1002 |59  |5  | [View alignment](LEO56__LEO57_bc1002.svg) |
-| LEO56_LEO57_bc1009 |4  | 0 | [View alignment](LEO56__LEO57_bc1009.svg) |
-| LEO56_LEO57_bc1011 | 105 |6  | [View alignment](LEO56_LEO57_bc1011.html) |
-| LEO56_LEO57_bc1016 | 1 | 0 | [View alignment](LEO56__LEO57_bc1016.svg) |
-
-
-
-
-
-
-
-
