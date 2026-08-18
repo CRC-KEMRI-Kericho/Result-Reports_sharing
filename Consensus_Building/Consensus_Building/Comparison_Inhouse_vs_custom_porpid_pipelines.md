@@ -50,7 +50,7 @@ The links below open the SVG alignment files directly in a web browser.
 | `bc2002_AGGACCAG` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2002_AGGACCAG.svg) |
 | `bc2003_ATGGTGAC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2003_ATGGTGAC.svg) |
 | `bc2004_GGACCCTA` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2004_GGACCCTA.svg) |
-| `bc2005_TGGGATTC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2005_TGGGATTC.svg) |
+| `bc2005_TGGGATTC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc_2005_TGGGATTC.svg)|
 
 ---
 
