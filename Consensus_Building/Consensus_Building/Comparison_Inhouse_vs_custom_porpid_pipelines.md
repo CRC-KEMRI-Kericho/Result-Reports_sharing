@@ -42,22 +42,21 @@ Other than this additional primer-derived motif, the lengths of the correspondin
 
 ### Alignment Examples
 
+The links below open the SVG alignment files directly in a web browser.
+
 | Common UMI | Alignment |
 |---|---|
-| `bc2001_ACGCCCTC` | [View alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/bc2001_ACGCCCTC.svg) |
-| `bc2002_AGGACCAG` | [View alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/bc2002_AGGACCAG.svg) |
-| `bc2003_ATGGTGAC` | [View alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/bc2003_ATGGTGAC.svg) |
-| `bc2004_GGACCCTA` | [View alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/bc2004_GGACCCTA.svg) |
-| `bc2005_TGGGATTC` |  [View alignment](https://github.com/CRC-KEMRI-Kericho/Result-Reports_sharing/blob/main/Consensus_Building/Consensus_Building/Results/pacbio/bc2005_TGGGATTC.svg) |
+| `bc2001_ACGCCCTC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2001_ACGCCCTC.svg) |
+| `bc2002_AGGACCAG` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2002_AGGACCAG.svg) |
+| `bc2003_ATGGTGAC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2003_ATGGTGAC.svg) |
+| `bc2004_GGACCCTA` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2004_GGACCCTA.svg) |
+| `bc2005_TGGGATTC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2005_TGGGATTC.svg) |
 
 ---
 
 ## 3. Recommendations
 
-The **in-house pipeline** is recommended for adoption. However, the following points should be discussed before finalizing the pipeline configuration:
+Adapt the **in-house pipeline** with the following configurations:
 
 - **Specific primer trimming:** Decide whether the specific primer sequence should be **fully trimmed** from the final consensus sequences or **left fully intact**. This requires further consultation.
-- **Minimum Phred quality score:** Consider increasing the current minimum Phred quality score from **Q18**, given improvements in sequencing technology and the associated reduction in sequencing errors.
-- **Minimum UMI family size:** Consider increasing the minimum family size from the current **5 reads to 7 reads** to improve confidence in consensus sequence generation and consensus-call quality.
-
-
+- **Minimum Phred quality score:** Consider increasing the current minimum Phred quality score from **Q18**, given improvements in sequencing technology and the associated reduction in sequencing errors. The current Phred score quality can be reviewed in the **[Summary quality assessment report](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/multiqc_report/multiqc_report.html)**.
