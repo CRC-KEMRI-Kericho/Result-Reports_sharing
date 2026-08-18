@@ -10,16 +10,16 @@ This comparison includes final consensus sequences generated using:
 
 For the PORPID rescue analysis, rejected consensus sequences were rescued and included in the final consensus output when rejection was caused by a **single position** with a minimum agreement **below 0.70 but at or above 0.50**.
 
-| Sample | No. of In-house Seqs | No. of PORPID Seqs | No. of PORPID Seqs With Rescue | No. of Common UMIs | Difference (In-house − PORPID) |
+| Sample | No. of In-house Seqs | No. of PORPID Seqs | No. of PORPID Seqs With Rescue | No. of Common UMIs | Difference (In-house − PORPID with rescue) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| bc2001 | 442 | 414 | 436 | 387 | +28 |
-| bc2002 | 793 | 257 | 789 | 229 | +536 |
-| bc2003 | 1,698 | 1,512 | 1,601 | 1,440 | +186 |
-| bc2004 | 464 | 414 | 436 | 395 | +50 |
-| bc2005 | 287 | 261 | 282 | 247 | +26 |
-| bc2006 | 737 | 491 | 717 | 464 | +246 |
-| bc2007 | 691 | 622 | 650 | 598 | +69 |
-| bc2008 | 407 | 452 | 474 | 364 | −45 |
+| bc2001 | 442 | 414 | 436 | 387 | +6 |
+| bc2002 | 793 | 257 | 789 | 229 | +4 |
+| bc2003 | 1,698 | 1,512 | 1,601 | 1,440 | +97 |
+| bc2004 | 464 | 414 | 436 | 395 | +28 |
+| bc2005 | 287 | 261 | 282 | 247 | +5 |
+| bc2006 | 737 | 491 | 717 | 464 | +20 |
+| bc2007 | 691 | 622 | 650 | 598 | +41 |
+| bc2008 | 407 | 452 | 474 | 364 | −67 |
 | bc2009 | 4,416 | 4,170 | 4,170 | 3,735 | +246 |
 
 ---
