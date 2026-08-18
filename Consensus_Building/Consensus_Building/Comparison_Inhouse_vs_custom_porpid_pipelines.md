@@ -11,7 +11,7 @@ This comparison includes final consensus sequences generated using:
 For the PORPID rescue analysis, rejected consensus sequences were rescued and included in the final consensus output when rejection was caused by a **single position** with a minimum agreement **below 0.70 but at or above 0.50**.
 
 | Sample | No. of In-house Seqs | No. of PORPID Seqs | No. of PORPID Seqs With Rescue | No. of Common UMIs | Difference (In-house − PORPID) |
-|---|---:|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | bc2001 | 442 | 414 | 436 | 387 | +28 |
 | bc2002 | 793 | 257 | 789 | 229 | +536 |
 | bc2003 | 1,698 | 1,512 | 1,601 | 1,440 | +186 |
@@ -45,7 +45,7 @@ Other than this additional primer-derived motif, the lengths of the correspondin
 The links below open the SVG alignment files directly in a web browser.
 
 | Common UMI | Alignment |
-|---|---|
+|:---:|:---:|
 | `bc2001_ACGCCCTC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2001_ACGCCCTC.svg) |
 | `bc2002_AGGACCAG` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2002_AGGACCAG.svg) |
 | `bc2003_ATGGTGAC` | [Open alignment in browser](https://crc-kemri-kericho.github.io/Result-Reports_sharing/Consensus_Building/Consensus_Building/Results/pacbio/bc2003_ATGGTGAC.svg) |
