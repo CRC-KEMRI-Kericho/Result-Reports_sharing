@@ -16,8 +16,3 @@ where values closer to 1 indicate higher predicted read accuracy. The violin wid
 ## 3. Quality Distribution for reads that contribute to the final family consensus
 
 <img width="800" height="884" alt="all_samples_family_quality_filtered_read_qv_violin" src="https://github.com/user-attachments/assets/f4d2ab24-cecd-4844-bcdd-d10523346f1f" />
-
-### Additional plot:
-
-<img width="1600" height="800" alt="sequali_per_position_quality_plot" src="https://github.com/user-attachments/assets/25a5a21c-d95b-44e8-beec-737254656bdd" />
-
