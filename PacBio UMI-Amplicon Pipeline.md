@@ -11,8 +11,8 @@ The report linked below summarizes the PacBio UMI-amplicon sequencing analysis r
 3. Open the extracted **PacBio_Analysis_Report** folder.
 4. Double-click **PacBio_Analysis_Report.html** to open the report in your web browser.
 
-The HTML report provides a central interface for navigating the analysis results. There is no need to open individual folders or files, install additional software, or configure a server.
+The HTML report provides a central interface for navigating the analysis results. There is no need to open individual folders or files.
 
-**Download:** [PacBio_Analysis_Report.zip](INSERT_DOWNLOAD_LINK_HERE)
+**Download:** [PacBio_Analysis_Report.zip](https://hjf.box.com/s/f99jsjp0ah78wmvb0283zxfofki1rqpk)
 
 If you encounter any difficulties opening or navigating the report, please let me know.
